@@ -1,0 +1,495 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:obo="http://purl.obolibrary.org/obo/">
+  <sbol:ComponentDefinition rdf:about="http://www.syntheticgenomics.com/SYNPUC18/1.0">
+    <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18"/>
+    <sbol:displayId>SYNPUC18</sbol:displayId>
+    <sbol:version>1.0</sbol:version>
+    <dcterms:description>pUC cloning vector.</dcterms:description>
+    <genbank:locus>SYNPUC18</genbank:locus>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <genbank:division>SYN</genbank:division>
+    <genbank:keywords>pUC18</genbank:keywords>
+    <genbank:source>synthetic DNA construct</genbank:source>
+    <genbank:organism>synthetic DNA construct</genbank:organism>
+    <genbank:reference>
+      <genbank:Reference rdf:about="http://www.syntheticgenomics.com/SYNPUC18/reference0">
+        <genbank:label>1  (bases 1 to 2686)</genbank:label>
+        <genbank:authors>Norrander J, Kempe T, Messing J</genbank:authors>
+        <genbank:title>Construction of improved M13 vectors using oligodeoxynucleotide-directed mutagenesis.</genbank:title>
+        <genbank:journal>Gene. 1983 Dec;26(1):101-6.</genbank:journal>
+        <genbank:pubmed>6323249</genbank:pubmed>
+      </genbank:Reference>
+    </genbank:reference>
+    <obo:OBI_0001617>6323249</obo:OBI_0001617>
+    <genbank:reference>
+      <genbank:Reference rdf:about="http://www.syntheticgenomics.com/SYNPUC18/reference1">
+        <genbank:label>2  (bases 1 to 2686)</genbank:label>
+        <genbank:authors>.</genbank:authors>
+        <genbank:title>Direct Submission</genbank:title>
+        <genbank:journal>Exported Jan 10, 2018 from SnapGene Server 1.1.58 http://www.snapgene.com</genbank:journal>
+      </genbank:Reference>
+    </genbank:reference>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000988"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation13/1.0">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation13"/>
+        <sbol:displayId>annotation13</sbol:displayId>
+        <sbol:version>1.0</sbol:version>
+        <dcterms:title>CAP binding site</dcterms:title>
+        <gbConv:label>CAP binding site</gbConv:label>
+        <gbConv:bound_moiety>E. coli catabolite activator protein</gbConv:bound_moiety>
+        <gbConv:note>CAP binding activates transcription in the presence of cAMP.</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000410"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation13/range/1.0">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation13/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1.0</sbol:version>
+            <sbol:start>558</sbol:start>
+            <sbol:end>579</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation17/1.0">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation17"/>
+        <sbol:displayId>annotation17</sbol:displayId>
+        <sbol:version>1.0</sbol:version>
+        <dcterms:title>AmpR</dcterms:title>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:gene>bla</gbConv:gene>
+        <gbConv:product>beta-lactamase</gbConv:product>
+        <gbConv:label>AmpR</gbConv:label>
+        <gbConv:note>confers resistance to ampicillin, carbenicillin, and related antibiotics</gbConv:note>
+        <gbConv:translation>MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYIELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRWEPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGASLIKHW</gbConv:translation>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation17/range/1.0">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation17/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1.0</sbol:version>
+            <sbol:start>1626</sbol:start>
+            <sbol:end>2486</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation19/1.0">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation19"/>
+        <sbol:displayId>annotation19</sbol:displayId>
+        <sbol:version>1.0</sbol:version>
+        <dcterms:title>AmpR promoter</dcterms:title>
+        <gbConv:gene>bla</gbConv:gene>
+        <gbConv:label>AmpR promoter</gbConv:label>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation19/range/1.0">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation19/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1.0</sbol:version>
+            <sbol:start>2487</sbol:start>
+            <sbol:end>2591</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation9/1.0">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation9"/>
+        <sbol:displayId>annotation9</sbol:displayId>
+        <sbol:version>1.0</sbol:version>
+        <dcterms:title>M13 Reverse</dcterms:title>
+        <gbConv:label>M13 Reverse</gbConv:label>
+        <gbConv:note>In lacZ gene. Also called M13-rev</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation9/range/1.0">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation9/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1.0</sbol:version>
+            <sbol:start>465</sbol:start>
+            <sbol:end>481</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation16/1.0">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation16"/>
+        <sbol:displayId>annotation16</sbol:displayId>
+        <sbol:version>1.0</sbol:version>
+        <dcterms:title>pBR322ori-F</dcterms:title>
+        <gbConv:label>pBR322ori-F</gbConv:label>
+        <gbConv:note>pBR322 origin, forward primer</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation16/range/1.0">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation16/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1.0</sbol:version>
+            <sbol:start>947</sbol:start>
+            <sbol:end>966</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation11/1.0">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation11"/>
+        <sbol:displayId>annotation11</sbol:displayId>
+        <sbol:version>1.0</sbol:version>
+        <dcterms:title>lac operator</dcterms:title>
+        <gbConv:label>lac operator</gbConv:label>
+        <gbConv:bound_moiety>lac repressor encoded by lacI</gbConv:bound_moiety>
+        <gbConv:note>The lac repressor binds to the lac operator to inhibit transcription in E. coli. This inhibition can be relieved by adding lactose or isopropyl-beta-D-thiogalactopyranoside (IPTG).</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000410"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation11/range/1.0">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation11/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1.0</sbol:version>
+            <sbol:start>489</sbol:start>
+            <sbol:end>505</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation4/1.0">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation4"/>
+        <sbol:displayId>annotation4</sbol:displayId>
+        <sbol:version>1.0</sbol:version>
+        <dcterms:title>M13/pUC Forward</dcterms:title>
+        <gbConv:label>M13/pUC Forward</gbConv:label>
+        <gbConv:note>In lacZ gene</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation4/range/1.0">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation4/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1.0</sbol:version>
+            <sbol:start>364</sbol:start>
+            <sbol:end>386</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation2/1.0">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation2"/>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <sbol:version>1.0</sbol:version>
+        <dcterms:title>lacZ-alpha</dcterms:title>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:gene>lacZ fragment</gbConv:gene>
+        <gbConv:product>LacZ-alpha fragment of beta-galactosidase</gbConv:product>
+        <gbConv:label>lacZ-alpha</gbConv:label>
+        <gbConv:translation>MTMITNSSSVPGDPLESTCRHASLALAVVLQRRDWENPGVTQLNRLAAHPPFASWRNSEEARTDRPSQQLRSLNGEWRLMRYFLLTHLCGISHRIWCTLSTICSDAA</gbConv:translation>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation2/range/1.0">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation2/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1.0</sbol:version>
+            <sbol:start>146</sbol:start>
+            <sbol:end>469</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation15/1.0">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation15"/>
+        <sbol:displayId>annotation15</sbol:displayId>
+        <sbol:version>1.0</sbol:version>
+        <dcterms:title>ori</dcterms:title>
+        <gbConv:direction>LEFT</gbConv:direction>
+        <gbConv:label>ori</gbConv:label>
+        <gbConv:note>high-copy-number ColE1/pMB1/pBR322/pUC origin of replication</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000296"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation15/range/1.0">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation15/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1.0</sbol:version>
+            <sbol:start>867</sbol:start>
+            <sbol:end>1455</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation0/1.0">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation0"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:version>1.0</sbol:version>
+        <dcterms:title>synthetic DNA construct</dcterms:title>
+        <gbConv:organism>synthetic DNA construct</gbConv:organism>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000149"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation0/range/1.0">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation0/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1.0</sbol:version>
+            <sbol:start>1</sbol:start>
+            <sbol:end>2686</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation14/1.0">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation14"/>
+        <sbol:displayId>annotation14</sbol:displayId>
+        <sbol:version>1.0</sbol:version>
+        <dcterms:title>L4440</dcterms:title>
+        <gbConv:label>L4440</gbConv:label>
+        <gbConv:note>L4440 vector, forward primer</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation14/range/1.0">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation14/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1.0</sbol:version>
+            <sbol:start>696</sbol:start>
+            <sbol:end>713</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation1/1.0">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation1"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:version>1.0</sbol:version>
+        <dcterms:title>pGEX 3'</dcterms:title>
+        <gbConv:label>pGEX 3'</gbConv:label>
+        <gbConv:note>pGEX vectors, reverse primer</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation1/range/1.0">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation1/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1.0</sbol:version>
+            <sbol:start>29</sbol:start>
+            <sbol:end>51</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation18/1.0">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation18"/>
+        <sbol:displayId>annotation18</sbol:displayId>
+        <sbol:version>1.0</sbol:version>
+        <dcterms:title>Amp-R</dcterms:title>
+        <gbConv:label>Amp-R</gbConv:label>
+        <gbConv:note>Ampicillin resistance gene, reverse primer</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation18/range/1.0">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation18/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1.0</sbol:version>
+            <sbol:start>2249</sbol:start>
+            <sbol:end>2268</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation10/1.0">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation10"/>
+        <sbol:displayId>annotation10</sbol:displayId>
+        <sbol:version>1.0</sbol:version>
+        <dcterms:title>M13/pUC Reverse</dcterms:title>
+        <gbConv:label>M13/pUC Reverse</gbConv:label>
+        <gbConv:note>In lacZ gene</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation10/range/1.0">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation10/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1.0</sbol:version>
+            <sbol:start>478</sbol:start>
+            <sbol:end>500</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation12/1.0">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation12"/>
+        <sbol:displayId>annotation12</sbol:displayId>
+        <sbol:version>1.0</sbol:version>
+        <dcterms:title>lac promoter</dcterms:title>
+        <gbConv:label>lac promoter</gbConv:label>
+        <gbConv:note>promoter for the E. coli lac operon</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation12/range/1.0">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation12/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1.0</sbol:version>
+            <sbol:start>513</sbol:start>
+            <sbol:end>543</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation6/1.0">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation6"/>
+        <sbol:displayId>annotation6</sbol:displayId>
+        <sbol:version>1.0</sbol:version>
+        <dcterms:title>M13 fwd</dcterms:title>
+        <gbConv:label>M13 fwd</gbConv:label>
+        <gbConv:note>common sequencing primer, one of multiple similar variants</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation6/range/1.0">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation6/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1.0</sbol:version>
+            <sbol:start>379</sbol:start>
+            <sbol:end>395</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation20/1.0">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation20"/>
+        <sbol:displayId>annotation20</sbol:displayId>
+        <sbol:version>1.0</sbol:version>
+        <dcterms:title>pBRforEco</dcterms:title>
+        <gbConv:label>pBRforEco</gbConv:label>
+        <gbConv:note>pBR322 vectors, upsteam of EcoRI site, forward primer</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation20/range/1.0">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation20/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1.0</sbol:version>
+            <sbol:start>2659</sbol:start>
+            <sbol:end>2677</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation3/1.0">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation3"/>
+        <sbol:displayId>annotation3</sbol:displayId>
+        <sbol:version>1.0</sbol:version>
+        <dcterms:title>pRS-marker</dcterms:title>
+        <gbConv:label>pRS-marker</gbConv:label>
+        <gbConv:note>pRS vectors, use to sequence yeast selectable marker</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation3/range/1.0">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation3/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1.0</sbol:version>
+            <sbol:start>151</sbol:start>
+            <sbol:end>170</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation8/1.0">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation8"/>
+        <sbol:displayId>annotation8</sbol:displayId>
+        <sbol:version>1.0</sbol:version>
+        <dcterms:title>M13 rev</dcterms:title>
+        <gbConv:label>M13 rev</gbConv:label>
+        <gbConv:note>common sequencing primer, one of multiple similar variants</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation8/range/1.0">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation8/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1.0</sbol:version>
+            <sbol:start>465</sbol:start>
+            <sbol:end>481</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation7/1.0">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation7"/>
+        <sbol:displayId>annotation7</sbol:displayId>
+        <sbol:version>1.0</sbol:version>
+        <dcterms:title>MCS</dcterms:title>
+        <gbConv:label>MCS</gbConv:label>
+        <gbConv:note>pUC18/19 multiple cloning site</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000001"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation7/range/1.0">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation7/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1.0</sbol:version>
+            <sbol:start>399</sbol:start>
+            <sbol:end>455</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation5/1.0">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation5"/>
+        <sbol:displayId>annotation5</sbol:displayId>
+        <sbol:version>1.0</sbol:version>
+        <dcterms:title>M13 Forward</dcterms:title>
+        <gbConv:label>M13 Forward</gbConv:label>
+        <gbConv:note>In lacZ gene. Also called M13-F20 or M13 (-21) Forward</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/SYNPUC18/annotation5/range/1.0">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18/annotation5/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1.0</sbol:version>
+            <sbol:start>378</sbol:start>
+            <sbol:end>395</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="http://www.syntheticgenomics.com/SYNPUC18_seq/1.0"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://www.syntheticgenomics.com/SYNPUC18_seq/1.0">
+    <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/SYNPUC18_seq"/>
+    <sbol:displayId>SYNPUC18_seq</sbol:displayId>
+    <sbol:version>1.0</sbol:version>
+    <sbol:elements>tcgcgcgtttcggtgatgacggtgaaaacctctgacacatgcagctcccggagacggtcacagcttgtctgtaagcggatgccgggagcagacaagcccgtcagggcgcgtcagcgggtgttggcgggtgtcggggctggcttaactatgcggcatcagagcagattgtactgagagtgcaccatatgcggtgtgaaataccgcacagatgcgtaaggagaaaataccgcatcaggcgccattcgccattcaggctgcgcaactgttgggaagggcgatcggtgcgggcctcttcgctattacgccagctggcgaaagggggatgtgctgcaaggcgattaagttgggtaacgccagggttttcccagtcacgacgttgtaaaacgacggccagtgccaagcttgcatgcctgcaggtcgactctagaggatccccgggtaccgagctcgaattcgtaatcatggtcatagctgtttcctgtgtgaaattgttatccgctcacaattccacacaacatacgagccggaagcataaagtgtaaagcctggggtgcctaatgagtgagctaactcacattaattgcgttgcgctcactgcccgctttccagtcgggaaacctgtcgtgccagctgcattaatgaatcggccaacgcgcggggagaggcggtttgcgtattgggcgctcttccgcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccataggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcaaagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagttaccaatgcttaatcagtgaggcacctatctcagcgatctgtctatttcgttcatccatagttgcctgactccccgtcgtgtagataactacgatacgggagggcttaccatctggccccagtgctgcaatgataccgcgagacccacgctcaccggctccagatttatcagcaataaaccagccagccggaagggccgagcgcagaagtggtcctgcaactttatccgcctccatccagtctattaattgttgccgggaagctagagtaagtagttcgccagttaatagtttgcgcaacgttgttgccattgctacaggcatcgtggtgtcacgctcgtcgtttggtatggcttcattcagctccggttcccaacgatcaaggcgagttacatgatcccccatgttgtgcaaaaaagcggttagctccttcggtcctccgatcgttgtcagaagtaagttggccgcagtgttatcactcatggttatggcagcactgcataattctcttactgtcatgccatccgtaagatgcttttctgtgactggtgagtactcaaccaagtcattctgagaatagtgtatgcggcgaccgagttgctcttgcccggcgtcaatacgggataataccgcgccacatagcagaactttaaaagtgctcatcattggaaaacgttcttcggggcgaaaactctcaaggatcttaccgctgttgagatccagttcgatgtaacccactcgtgcacccaactgatcttcagcatcttttactttcaccagcgtttctgggtgagcaaaaacaggaaggcaaaatgccgcaaaaaagggaataagggcgacacggaaatgttgaatactcatactcttcctttttcaatattattgaagcatttatcagggttattgtctcatgagcggatacatatttgaatgtatttagaaaaataaacaaataggggttccgcgcacatttccccgaaaagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggccctttcgtc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

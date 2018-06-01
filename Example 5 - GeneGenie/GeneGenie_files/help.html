@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)http://g.gene-genie.appspot.com/help/help.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link type="text/css" rel="stylesheet" href="./stylesheet.css">
+<title>Help</title>
+<script type="text/javascript" src="./genegenie.nocache.js"></script><link rel="stylesheet" href="./clean.css"><script src="./D3AB0CF96AA22452C2324F6C957EE6A0.cache.js"></script>
+<style>.GPBYFDEED{border-top:2px solid #6f7277;padding:3px 15px;text-align:left;color:#4b4a4a;text-shadow:#ddf 1px 1px 0;overflow:hidden;}.GPBYFDEFD{border-bottom:2px solid #6f7277;padding:3px 15px;text-align:left;color:#4b4a4a;text-shadow:#ddf 1px 1px 0;overflow:hidden;}.GPBYFDEOC{padding:2px 15px;overflow:hidden;}.GPBYFDEDE{cursor:pointer;cursor:hand;}.GPBYFDEDE:hover{color:#6c6b6b;}.GPBYFDEPC{background:#fff;}.GPBYFDEAD{border:2px solid #fff;}.GPBYFDEPD{background:#f3f7fb;}.GPBYFDEAE{border:2px solid #f3f7fb;}.GPBYFDEGD{background:#eee;}.GPBYFDEHD{border:2px solid #eee;}.GPBYFDEJD{background:#ffc;}.GPBYFDEKD{border:2px solid #ffc;}.GPBYFDEBE{background:#628cd5;color:white;height:auto;overflow:auto;}.GPBYFDECE{border:2px solid #628cd5;}.GPBYFDEID{border:2px solid #d7dde8;}.GPBYFDEOD{margin:30px;}.GPBYFDELH{padding:4px 8px;text-align:center;}.GPBYFDEJH{padding:4px;cursor:pointer;cursor:hand;}.GPBYFDEKH{cursor:default;}</style></head>
+
+<body>
+	<h2>Help</h2>
+	<h3>Introduction</h3>
+	The de novo synthesis of genes is becoming increasingly established in
+	synthetic biology and biotechnology as a means to control the assembly
+	of amino acids producing active proteins. Current approaches involve
+	the synthesis (or purchase) of a number of short oligonucleotides
+	(typically ~60 bases in length), which can be assembled together and
+	expressed in a host system of interest.
+	<p>
+	GeneGenie, a new online tool, is introduced to support the
+	design of synthetic genes and constructs. GeneGenie allows for the
+	design of oligonucleotides encoding the gene sequence optimised for
+	expression in any suitable host through an intuitive, easy-to-use web
+	interface. The tool ensures consistent oligomer overlap melting
+	temperatures, minimises the likelihood of misannealing, optimises
+	codon usage for expression in a selected host, allows for
+	specification of forward and reverse cloning sequences (for downstream
+	ligation) and also provides support for mutagenesis or directed
+	evolution studies.
+	</p>
+	<p>
+	Output oligomers can be assembled using PCR-based methods, and
+	are fully compatible with our own optimised gene synthesis protocol
+	developed alongside GeneGenie. These methods provide highly efficient
+	assembly, permitting expression and functional analysis of genes up to
+	2 kilobases in length before sequence verification. This represents a
+	significant improvement over currently established gene synthesis
+	methods.
+	</p>
+	<p>
+	Using this integrated wet- and dry-lab approach, the successful
+	synthesis and direct assay of green fluorescent protein (GFP) is
+	demonstrated. Novelties of this approach include the specification of
+	forward and reverse cloning sequences, facilitating the ligation of
+	the designed gene into a vector and its subsequent expression, and the
+	optional specification of "variant codons" at given positions. These
+	variant codons may include degenerate bases, in addition to the four
+	bases A, C, G, and T. Specification of codons including degenerate
+	bases allow for variant sequences to be constructed, supporting
+	directed evolution studies through the generation of variant
+	libraries. For example, specifying the variant codon NTN (where N is
+	any nucleotide) will encode a mixture of the amino acids Phe, Leu,
+	Ile, Met and Val at that position.
+	</p>
+	
+	<h3>Query</h3>
+	
+	<h4>Title</h4>
+	<p>
+	Add a title for the query. This is a free text field, which will be associated with the GeneGenie query
+	that is being performed.
+	</p>
+	<p>
+	This title will be propagated to the results, and will be used to name the designed oligos, and can
+	therefore be useful in tracking oligomer orders with manufacturers.
+	</p>
+	<p>
+	This field is optional.
+	</p>
+	
+	<h4>5' cloning sequence</h4>
+	<p>
+	Specify the DNA cloning sequence that will be used to ligate the forward sequence into the vector.
+	This sequence will be inserted at the 5' end of the gene.
+	</p>
+	<p>
+	This should be a sense strand sequence (reading 5' to 3') and <b>not</b> a reverse or compliment sequence.
+	</p>
+	<p><b>Hint</b>: Ensure that the gene will be in the correct reading frame after cloning.
+	Does the sequence require a starting methionine?
+	</p>
+	<p>
+	This field is optional.
+	</p>
+	
+	<h4><a id="uniProtSearch">Search UniProt</a></h4>
+	<p>
+	Specify a search term for searching the UniProt database.
+	</p>
+	<p>
+	Upon completion of the search, the user will be prompted with a list of UniProt entries, from
+	which one can be selected. Doing so will automatically fill the Protein sequence field, below.
+	(See <a href="http://g.gene-genie.appspot.com/help/help.html#proteinSequence">Protein sequence</a>).
+	</p>
+	<p>
+	Use of this field is optional, but the specification of a protein sequence is compulsory.
+	(See <a href="http://g.gene-genie.appspot.com/help/help.html#proteinSequence">Protein sequence</a>).
+	
+	</p><h4><a id="proteinSequence">Protein sequence</a></h4>
+	<p>Specify the sequence of the protein which is to be designed.</p>
+	<p>Only valid amino acid single-letter codes may be input.</p>
+	<p>
+		This field may be filled automatically as a result of a UniProt
+		search, above. (See <a href="http://g.gene-genie.appspot.com/help/help.html#uniProtSearch">Search UniProt</a>).
+	</p>
+	<p>This field is compulsory.</p>
+
+	<h5>Variant codons</h5>
+	<p>A unique feature of GeneGenie is the facility to specify "variant
+		codons" at given positions. These variant codons may include degenerate
+		bases, in addition to the four bases A, C, G, and T. Specification of
+		codons including degenerate bases allow for variant sequences to be
+		constructed, supporting directed evolution studies through the
+		generation of variant libraries. For example, specifying the variant
+		codon NTN (where N is any nucleotide) will encode a mixture of the
+		amino acids Phe, Leu, Ile, Met and Val at that position.</p>
+	<p>In order to specify a variant codon, highlight a single residue
+		and right-click. This will bring up a menu with two options: Add Variant
+		Codon and Remove Variant Codon. Selecting Add Variant Codon will bring up
+		the following dialog box, allowing a variant codon to be specified at
+		this position:</p>
+	<p>
+		<img src="./fixedCodon.png" alt="Add Variant Codon dialog box">
+	</p>
+	<p>A variant codon can be specified, using either specific bases (A,
+		C, G, T) or degenerate bases, which encode a mixture of specific
+		bases:</p>
+	<table class="helpTable">
+		<tbody><tr>
+			<th>Symbol</th>
+			<th>Description</th>
+			<th colspan="5">Bases represented</th>
+		</tr>
+		<tr>
+			<td><b>A</b></td>
+			<td align="left"><b>a</b>denine</td>
+			<td>A</td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><b>C</b></td>
+			<td align="left"><b>c</b>ytosine</td>
+			<td></td>
+			<td>C</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><b>G</b></td>
+			<td align="left"><b>g</b>uanine</td>
+			<td></td>
+			<td></td>
+			<td>G</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><b>T</b></td>
+			<td align="left"><b>t</b>hymine</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>T</td>
+		</tr>
+		<tr>
+			<td><b>W</b></td>
+			<td align="left"><b>w</b>eak</td>
+			<td>A</td>
+			<td></td>
+			<td></td>
+			<td>T</td>
+		</tr>
+		<tr>
+			<td><b>S</b></td>
+			<td align="left"><b>s</b>trong</td>
+			<td></td>
+			<td>C</td>
+			<td>G</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><b>M</b></td>
+			<td align="left">a<b>m</b>ino</td>
+			<td>A</td>
+			<td>C</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><b>K</b></td>
+			<td align="left"><b>k</b>eto</td>
+			<td></td>
+			<td></td>
+			<td>G</td>
+			<td>T</td>
+		</tr>
+		<tr>
+			<td><b>R</b></td>
+			<td align="left">pu<b>r</b>ine</td>
+			<td>A</td>
+			<td></td>
+			<td>G</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><b>Y</b></td>
+			<td align="left">p<b>y</b>rimidine</td>
+			<td></td>
+			<td>C</td>
+			<td></td>
+			<td>T</td>
+		</tr>
+		<tr>
+			<td><b>B</b></td>
+			<td align="left">not A (<b>B</b> comes after A)
+			</td>
+			<td></td>
+			<td>C</td>
+			<td>G</td>
+			<td>T</td>
+		</tr>
+		<tr>
+			<td><b>D</b></td>
+			<td align="left">not C (<b>D</b> comes after C)
+			</td>
+			<td>A</td>
+			<td></td>
+			<td>G</td>
+			<td>T</td>
+		</tr>
+		<tr>
+			<td><b>H</b></td>
+			<td align="left">not G (<b>H</b> comes after G)
+			</td>
+			<td>A</td>
+			<td>C</td>
+			<td></td>
+			<td>T</td>
+		</tr>
+		<tr>
+			<td><b>V</b></td>
+			<td align="left">not T (<b>V</b> comes after T and U)
+			</td>
+			<td>A</td>
+			<td>C</td>
+			<td>G</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><b>N</b></td>
+			<td align="left">a<b>n</b>y base (not a gap)
+			</td>
+			<td>A</td>
+			<td>C</td>
+			<td>G</td>
+			<td>T</td>
+		</tr>
+	</tbody></table>
+	<p>Consequently, specifying a codon of <code>TST</code> will generate a mixture of <code>TCT</code>
+	and <code>TGT</code> codon at that position, and therefore encode either Ser or Cys at that position.
+	
+	</p><h4>3' cloning sequence</h4>
+	<p>
+	Specify the DNA cloning sequence that will be used to ligate the reverse sequence into the vector.
+	This sequence will be inserted at the 3' end of the gene.
+	</p>
+	<p>
+	This should be a sense strand sequence (reading 5' to 3') and <b>not</b> a reverse or compliment sequence.
+	</p>
+	<p><b>Hint</b>: Does the construct require a stop codon (e.g TAA) after the gene?
+	</p>
+	<p>
+	This field is optional.
+	</p>
+
+	<h4>Maximum oligo length</h4>
+	<p>
+	Specify the maximum length of the designed oligos.
+	</p>
+	<p>
+	This field is compulsory.
+	</p>
+	
+	<h4>Melting temperature</h4>
+	<p>
+	Specified a preferred melting temperature for annealing overlaps.
+	</p>
+	<p>Note that specifying a higher melting temperature will produce a solution with
+	longer overlaps.
+	</p>
+	<p>
+	This field is compulsory.
+	</p>
+	
+	<h4>Na+ concentration / M</h4>
+	<p>
+	Specify the Na+ concentration in M.
+	</p>
+	<p>
+	This field is mandatory, and requires values between 0 and 1.
+	</p>
+	
+	<h4>K+ concentration / M</h4>
+	<p>
+	Specify the K+ concentration in M.
+	</p>
+	<p>
+	This field is mandatory, and requires values between 0 and 1.
+	</p>
+	
+	<h4>Tris concentration / M</h4>
+	<p>
+	Specify the Tris (THAM, tris(hydroxymethyl)aminomethane) concentration in M.
+	</p>
+	<p>
+	This field is mandatory, and requires values between 0 and 1.
+	</p>
+
+	<h4>Mg2+ concentration / M</h4>
+	<p>
+	Specify the Mg2+ concentration in M.
+	</p>
+	<p>
+	This field is mandatory, and requires values between 0 and 1.
+	</p>
+	
+	<h4>dNTP concentration / M</h4>
+	<p>
+	Specify the dNTP concentration in M.
+	</p>
+	<p>
+	This field is mandatory, and requires values between 0 and 1.
+	</p>
+	
+	<h4>Host organism</h4>
+	<p>
+	Select the host organism in which the oligos will be expressed.
+	</p>
+	<p>
+	This value must be selected from one of the options provided in the autofill box.
+	</p>
+	<p>
+	This field is compulsory.
+	</p>
+	
+	<h4>Number of iterations</h4>
+	<p>
+	Specify the number of iterations for the optimisation algorithm to take. 
+	</p>
+	<p>
+	Improved results <i>may</i> be generated by specifying a larger number than the default of 10000,
+	but this will result in longer running times.
+	</p>
+	<p>
+	This field is compulsory.
+	</p>
+	
+	<h4>Maximum number of repeating nucleotides</h4>
+	<p>
+	Specify the maximum number of repeating nucleotides that may be present in the optimised DNA sequence. 
+	</p>
+	<p>
+	Specifying a value of 5 will prevent solutions with six or more repeating nucleotides (e.g. <code>AAAAAA</code>).
+	</p>
+	<p>
+	Preventing long stretched of repeating nucleotides will benefit ligation of the designed oligomers
+	and will aid subsequent sequencing of the optimised DNA if required. 
+	</p>
+	<p>
+	This field is compulsory, and must be greater than 3.
+	</p>
+	
+	<h4>Codon mutation rate</h4>
+	<p>
+	Specify the codon mutation rate. 
+	</p>
+	<p>
+	Specifying a value of 0.01 will result in, on average, mutation of 1% of all codons per iteration
+	of the algorithm.
+	</p>
+	<p>
+	For example, with a protein sequence of length 300 amino acids, a codon mutation rate of 0.01 will
+	result in, on average, 3 codon mutations per iteration.
+	</p>
+	<p>
+	This field is compulsory, and must be between 0 and 1.
+	</p>
+	
+	<h4>Oligo length mutation rate</h4>
+	<p>
+	Specify the oligo length mutation rate. 
+	</p>
+	<p>
+	In order to optimise codon lengths to ensure consistent melting temperatures of overlapping regions,
+	<b>and</b> to maximise the number of requested "Wibble" sites that fall in non-overlapping regions
+	(and can therefore be varied for directed evolution studies), oligo lengths are mutated by the algorithm.
+	</p><p>
+	Specifying a value of 0.01 will result in, on average, mutation of 1% of all oligo lengths per iteration
+	of the algorithm.
+	</p>
+	<p>
+	Oligo lengths which are selected to be mutated are varied by +/- 10 nucleotides, taken randomly from a
+	uniform distribution.
+	</p>
+	<p>
+	For example, specifying an oligo length mutation rate of 0.02 will result in, on average, the mutation of
+	1 oligo from an optimised solution of 50 oligomers per iteration.
+	</p>
+	<p>
+	This field is compulsory, and must be between 0 and 1.
+	</p>
+	
+	<h3>Result</h3>
+	<h4><a id="alignment">Alignment</a></h4>
+	<p>
+	Displays the full alignment of the designed oligomers which make up the gene.
+	</p>
+	<p>
+	The directionality of the oligos (forward or reverse) are indicated by arrows.
+	Cloning sequences (both forward and reverse) are underlined.
+	</p>
+	<p>
+	Overlapping regions are highlighted in light blue, and contain a tooltip which
+	allows the melting temperature of the overlap to be displayed by holding the
+	mouse over the overlap.
+	</p>
+	<p>
+	Requested variant codons are highlighted in bold, and are coloured either green or red.
+	Green variant codons are those which were successfully optimised to be in non-overlapping
+	regions of the oligos. Red variant codons are those which are found in overlapping regions
+	and can therefore not be specified. In these cases, a codon encoding the original amino
+	acid will have been selected.
+	</p>
+	
+	<h4>Number of variant codons</h4>
+	<p>
+	Displays the number of variant codons that have been retained in the optimised sequence.
+	</p>
+	<p>
+	GeneGenie attempts to optimise the oligomer lengths such that requested variant codon sites
+	are placed in non-overlapping regions of the oligos. Those variant codons that are placed in
+	non-overlapping regions are retained. These are displayed in green on the
+	<a href="http://g.gene-genie.appspot.com/help/help.html#alignment">Alignment</a> display.
+	</p><p>
+	Requested variant codons that cannot placed in overlapping regions cannot be specified.
+	In these cases, a codon encoding the original amino acid will have been selected.
+	These are displayed in red on the <a href="http://g.gene-genie.appspot.com/help/help.html#alignment">Alignment</a> display.
+	</p>
+	
+	<h4>Codon Adaptation Index</h4>
+	<p>
+	Codon Adaptation Index (CAI) measures the deviation of the optimised DNA sequence with respect to a
+	reference set of highly expressed genes, which is specific to the selected host organism.
+	</p>
+	<p>
+	CAI provides an indication of gene expression level under the assumption that there is translational
+	selection to optimize gene sequences according to their expression levels. Consequently, GeneGenie
+	will attempt to optimise the DNA sequence to favour codons that are found in highly expressed genes.
+	</p>
+	<p>
+	CAI ranges from 0 to 1, with a CAI of 1 representing a sequence containing only the most frequently
+	observed codons in highly expressed genes.
+	</p>
+	<p>Sharp PM, Li WH. "The codon Adaptation Index--a measure of directional synonymous codon usage bias,
+	and its potential applications" <i>Nucleic Acids Res.</i> 1987, <b>15</b>:1281–95.
+	<a href="http://www.ncbi.nlm.nih.gov/pubmed/3547335" alt="PubMed" target="_blank">PubMed</a>.
+	</p>
+	
+	<h4>Oligos</h4>
+	<p>
+	This table lists all oligomers designed by the GeneGenie run.
+	</p>
+	<p>
+	The table includes oligo number, name, whether the oligo is <b>F</b>orward or <b>R</b>everse,
+	the oligo sequence and the oligo length.
+	</p>
+	<p>
+	Buttons to the right of the table allow this data to be exported a number of formats:
+	</p>
+	<ul>
+	<li>
+		<b>csv</b>: comma-separated values, which can be exported into Microsoft Excel and text editors.
+	</li>
+	<li>
+		<b>IDT</b>: text-format, compatible with <a href="http://www.idtdna.com/">Integrated DNA Technologies</a>
+		online ordering tool.
+	</li>
+	<li>
+		<b>SBOL</b>: <a href="http://www.sbolstandard.org/">Synthetic Biology Open Language</a> format.
+	</li>
+	</ul>
+	
+	<h4>Mean melting temperature (Tm) / \u00b0C</h4>
+	<p>
+	The mean melting temperature (Tm) in \u00b0C of all overlapping regions.
+	</p>
+	
+	<h4>Melting temperatures (Tm) / \u00b0C</h4>
+	<p>
+	A chart displaying the melting temperatures (Tm) in \u00b0C of each of the overlapping regions.
+	</p>
+	<p>
+	Holding the mouse over each value will display the calculated melting temperature for a given
+	overlapping region.
+	</p>
+	
+	<h4>DNA Sequence</h4>
+	<p>
+	The complete optimised DNA Sequence encoding the requested protein.
+	</p>
+	
+	<h4>Results link</h4>
+	<p>
+	Provides a temporary link to the results of this job, which may be bookmarked for future use.
+	</p>
+	<p>
+	Results will be accessible upon completion of the job. Failure to show the results may be due to
+	the job not being completed, experiencing an error, or the results having been deleted.
+	</p>
+	<p><b>Note</b>: The results link facility provides a temporary link to the results, which may subsequently
+	be deleted. The developers of GeneGenie take no responsibility for the storage of results and their
+	subsequent accessibility.
+	</p>
+
+<iframe src="javascript:&quot;&quot;" id="genegenie" tabindex="-1" style="position: absolute; width: 0px; height: 0px; border: none; left: -1000px; top: -1000px;" src="./saved_resource(4).html"></iframe><div aria-hidden="true" style="position: absolute; z-index: -32767; top: -20cm; width: 10cm; height: 10cm; visibility: hidden;">&nbsp;</div></body></html>

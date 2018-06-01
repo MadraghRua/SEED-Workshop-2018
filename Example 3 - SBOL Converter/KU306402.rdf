@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:prov="http://www.w3.org/ns/prov#">
+  <sbol:ComponentDefinition rdf:about="http://www.syntheticgenomics.com/KU306402/1">
+    <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/KU306402"/>
+    <sbol:displayId>KU306402</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:description>Cloning vector pJV53-GFP, complete sequence.</dcterms:description>
+    <genbank:locus>KU306402</genbank:locus>
+    <genbank:molecule>DNA</genbank:molecule>
+    <genbank:division>SYN</genbank:division>
+    <genbank:keywords>.</genbank:keywords>
+    <genbank:source>Cloning vector pJV53-GFP</genbank:source>
+    <genbank:organism>Cloning vector pJV53-GFP other sequences; artificial sequences; vectors.</genbank:organism>
+    <genbank:reference>
+      <genbank:Reference rdf:about="http://www.syntheticgenomics.com/KU306402/reference0">
+        <genbank:label>1  (bases 1 to 9885)</genbank:label>
+        <genbank:authors>Mao,X.-J., Yan,M.-Y., Zhu,H., Guo,X.-P. and Sun,Y.-C.</genbank:authors>
+        <genbank:title>Efficient and simple generation of multiple unmarked gene deletions in Mycobacterium smegmatis</genbank:title>
+        <genbank:journal>Unpublished</genbank:journal>
+      </genbank:Reference>
+    </genbank:reference>
+    <genbank:reference>
+      <genbank:Reference rdf:about="http://www.syntheticgenomics.com/KU306402/reference1">
+        <genbank:label>2  (bases 1 to 9885)</genbank:label>
+        <genbank:authors>Mao,X.-J., Yan,M.-Y., Zhu,H., Guo,X.-P. and Sun,Y.-C.</genbank:authors>
+        <genbank:title>Direct Submission</genbank:title>
+        <genbank:journal>Submitted (15-DEC-2015) Microbiology, Institute of Pathogen Biology,Chinese Academy of Medical Sciences &amp; Peking Union Medical College (CAMS&amp;PUMC), building 9, Beijing University Of Technology, Yizhuang Development Zone, Daxing District, Beijing 100000, China</genbank:journal>
+      </genbank:Reference>
+    </genbank:reference>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000988"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/KU306402/annotation3/1">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/KU306402/annotation3"/>
+        <sbol:displayId>annotation3</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>gfp</dcterms:title>
+        <gbConv:gene>gfp</gbConv:gene>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000704"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/KU306402/annotation3/range/1">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/KU306402/annotation3/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>4865</sbol:start>
+            <sbol:end>5581</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/KU306402/annotation1/1">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/KU306402/annotation1"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>aph</dcterms:title>
+        <gbConv:gene>aph</gbConv:gene>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000704"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/KU306402/annotation1/range/1">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/KU306402/annotation1/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>3541</sbol:start>
+            <sbol:end>4356</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/KU306402/annotation0/1">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/KU306402/annotation0"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>gp60 and gp61 inducing expression and gfp expression vector</dcterms:title>
+        <gbConv:organism>Cloning vector pJV53-GFP</gbConv:organism>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <gbConv:isolation_source>E.coli</gbConv:isolation_source>
+        <gbConv:db_xref>taxon:1812984</gbConv:db_xref>
+        <gbConv:lab_host>mycobacterium and E.coli</gbConv:lab_host>
+        <gbConv:note>gp60 and gp61 inducing expression and gfp expression vector</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000149"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/KU306402/annotation0/range/1">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/KU306402/annotation0/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>1</sbol:start>
+            <sbol:end>9885</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/KU306402/annotation2/1">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/KU306402/annotation2"/>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>aph</dcterms:title>
+        <gbConv:gene>aph</gbConv:gene>
+        <gbConv:note>kanamycin resistance</gbConv:note>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:transl_table>11</gbConv:transl_table>
+        <gbConv:product>aph</gbConv:product>
+        <gbConv:protein_id>AMQ45835.1</gbConv:protein_id>
+        <gbConv:translation>MSHIQRETSCSRPRLNSNMDADLYGYKWARDNVGQSGATIYRLYGKPHAPELFLKHGKGSVANDVTDEMVRLNWLTEFMPLPTIKHFIRTPDDAWLLTTAIPGKTAFQVLEEYPDSGENIVDALAVFLRRLHSIPVCNCPFNSDRVFRLAQAQSRMNNGLVDASDFDDERNGWPVEQVWKEMHNLLPFSPDSVVTHGDFSLDNLIFDEGKLIGCIDVGRVGIADRYQDLAILWNCLGEFSPSLQKRLFQKYGIDNPDMNKLQFHLMLDEFF</gbConv:translation>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/KU306402/annotation2/range/1">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/KU306402/annotation2/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>3541</sbol:start>
+            <sbol:end>4356</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/KU306402/annotation4/1">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/KU306402/annotation4"/>
+        <sbol:displayId>annotation4</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>gfp</dcterms:title>
+        <gbConv:gene>gfp</gbConv:gene>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:transl_table>11</gbConv:transl_table>
+        <gbConv:product>gfp</gbConv:product>
+        <gbConv:protein_id>AMQ45836.1</gbConv:protein_id>
+        <gbConv:translation>MSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLKFICTTGKLPVPWPTLVTTLTYGVQCFSRYPDHMKRHDFFKSAMPEGYVQERTISFKDDGNYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYITADKQKNGIKANFKTRHNIEDGGVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMVLLEFVTAAGITHGMDELYK</gbConv:translation>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/KU306402/annotation4/range/1">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/KU306402/annotation4/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>4865</sbol:start>
+            <sbol:end>5581</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="http://www.syntheticgenomics.com/KU306402_seq/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://www.syntheticgenomics.com/KU306402_seq/1">
+    <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/KU306402_seq"/>
+    <sbol:displayId>KU306402_seq</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>tgcatgaccgccggcgggtgctcgtggcgttgaccccgcgggggcggacgctgcgcaaccgcctggtggacgcggtagccgaggccgagtgtgcggcttttgaatcgtgcgggctggacgtcgaccagttgcgcgaactcgtcgacaccacctcgaatttgacttcgtaaccacccgcgcccggcgcgggcgttcacccttgacttttattttcatctggatatatttcgggtgaatggaaaggggtgaccatgccgacctacacattccgttgttcccactgcggtcccttcgatctcacctgcgcgatctccgagcgcgatgcggcggcgacctgtccggagtgccggacgccggcgcgccgggtcttcggttcggtagggctgacgacattcaccgcgggacatcaccgcgcattcgacgcggcgtccgcgagcgccgaaagtcccacggtggtgaagtcgattcccgcaggcgcggaccgcccgcgggccccgcgccgcaatcccggtctaccgagtctgccgaggtactagcgacatgggtggcgtcgggctcttctacgtgggtgcggtgctcatcatcgacgggctgatgctgctgggccgcatcagcccacgaggcgcaacaccgctgaacttcttcgtcggcggactgcaggtggtgacgcctacggtgctgatcctgcagtccggcggagacgcggccgtgatcttcgcggcctccgggctctacctgttcggcttcacctacctgtgggtggccatcaacaacgtgaccgactgggacggagaaggtctcggatggttctcgctgttcgtcgcgatcgccgcactcggctactcgtggcacgcgttcaccgccgaggccgacccggcgttcggggtgatctggctgctgtgggcagtgctgtggttcatgctgttcctgctgctcggcctggggcacgacgcactggggcccgccgtcgggttcgtcgcggtggccgaaggcgtgatcaccgccgccgtgccggccttcctgatcgtgtcgggcaactgggaaaccggcccgctccccgccgcggtcatcgccgtgatcggttttgccgcagttgttctcgcataccccatcgggcgccgtctcgcagcgccgtcagtcaccaaccctccaccggccgcgctcgcggccaccacccgataagagaaagggagtccacatatgtaacggatccagctgcagaattcgaagcttatcgatgtcgacgtagttacgagatcggcggccgcatatgagtgtgcccacacaggacggaatgcaccggttcgtcgacgaggacgtctaccacgctgaccggggctcgctgtcggtatccggcgcgaagctgctgttgccgccgtcgtgtcccgcgaaattccgctgggagatggacaacacccggaagccgaaaaaggtctgggacttcggacatgtcgcgcacaaactggtgctcggcaagggtgccgagttcgagatcctcgaccccgaggtgcacgggctgaaggcggacggtacgccgtcggagaagccgaccgcgacgggcatgtggcgcaaggccgaggctgaggctcgcaaacagggcaaggtgccgattcacgtcgacctgttcacgaaggcgtacgacatggccgaaaaggtgcgtcagcacccgacagccggcccgatcttcgccaatcctgacggcgaggccgaggtcgcgctgtactacaccgaccccgagaccggcgtgcggctgcgtggccggatcgactggctcactgacgatatcgatgattacaagacgtcgatgaccgcgaacccggccgagctgaaaaccaagttctacaagctcggctatttcatgcaggcggcctggtacatcgatctactggtcgccctcgggctcgccgagaacccgcgattccggttcatcacgcaggagaaagaaccgccctacgtcgtgactccgatccagtacgacgacgaggcgatcgaagaggggcggcgccgcaaccgccaggcgatccggctctacgccgactgcatggaatcgggcaagtggcctgactacagcgacgacgtggtcacgatcagcctgccctcgtgggggctgccgcgaccgcagaccgtcggcgacgtcgtcaccgacagctatatctacgacaccgacccgctcgaagaggccgacccgattgaaggggattacatctatggctgaaaatgctgtcaccaagcaggattcgcccaaggcacccgagacgatctcgcaagtgctgcaggtgctcgtgccgcagctggcgcgtgcagtgcccaagggtatggaccccgaccgcatcgcgcggatcgtgcaaaccgagatccgcaagtcgcgcaacgcgaaagctgctggcatcgctaagcagtccctcgacgactgcacgcaagagtcatttgccggtgcgctgctgacctcggccgcgctcggtctcgagcccggtgtcaacggcgagtgctacctcgtgccctaccgcgacacccggcgcggcgtggtcgagtgccagctgatcatcggctaccagggcatcgtcaaactgttctggcagcacccgcgcgcctcccggatcgacgcgcagtgggtcggcgcgaacgacgaattccattacaccatgggcctcaatccgacgctgaaacacgtgaaggccaagggtgatcggggtaatccggtctacttctacgcgatcgtcgaggtgaccggcgctgagccgctgtgggacgtgttcaccgccgacgagatcagggaattgcgtcgcggcaaggtcggatcctcgggcgacatcaaggacccgcagcgctggatggagcggaagaccgcgctcaaacaggtgctgaagctggcaccgaagacgacgcggctcgacgcggcgatccgcgccgacgatcgcccgggcaccgacctgtcacagtcgcaggcgctcgcgctgccgtcgaccgtcaagccgacggccgactacatcgacggcgagatcgccgagccgcacgaggtcgatacgccaccgaagtcgtcgcgcgcacaacgcgcgcagcgcgccaccgcgccggcgcccgacgtgcagatggccaatcccgatcagctgaagcgcctcggcgagatccagaaggccgaaaagtacaacgacgccgattggttcaagttcctcgccgattcggccggcgtcaaagccacgcgcgccgccgacctcacgttcgacgaggcgaaggctgtcatcgacatgttcgacgggcccaacgcatgagcgccccggcgaattccgacgcggtggttgatctgcaactagcgtacgatcgactgccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatgccatcatggccgcggtgatcagctagccacctgacgtcgggggggggggaaagccacgttgtgtctcaaaatctctgatgttacattgcacaagataaaaatatatcatcatgaacaataaaactgtctgcttacataaacagtaatacaaggggtgttatgagccatattcaacgggaaacgtcttgctcgaggccgcgattaaattccaacatggatgctgatttatatgggtataaatgggctcgcgataatgtcgggcaatcaggtgcgacaatctatcgcttgtatgggaagccccatgcgccagagttgtttctgaaacatggcaaaggtagcgttgccaatgatgttacagatgagatggtcagactaaactggctgacggaatttatgcctcttccgaccatcaagcattttatccgtactcctgatgatgcatggttactcaccactgcgatccccgggaaaacagcattccaggtattagaagaatatcctgattcaggtgaaaatattgttgatgcgctggcagtgttcctgcgccggttgcattcgattcctgtttgtaattgtccttttaacagcgatcgcgtatttcgtctcgctcaggcgcaatcacgaatgaataacggtttggttgatgcgagtgattttgatgacgagcgtaatggctggcctgttgaacaagtctggaaagaaatgcataatcttttgccattctcaccggattcagtcgtcactcatggtgatttctcacttgataaccttatttttgacgaggggaaattaataggttgtattgatgttggacgagtcggaatcgcagaccgataccaggatcttgccatcctatggaactgcctcggtgagttttctccttcattacagaaacggctttttcaaaaatatggtattgataatcctgatatgaataaattgcagtttcatttgatgctcgatgagtttttctaatcagaattggttaattggttgtaacactggcagagcattacgctgacttgacgggacggcggctttgttgaataaatcgaacttttgctgagttgaaggatcagatcacgcatcttcccgacaacgcagaccgttccgtggcaaagcaaaagttcaaaatcaccaactggtccacctacaacaaagctctcaccaaccgtggctccctcactttctggctggatgatggggcgattcaggcctggtatgagtcagcaacaccttcttcacgaggcagacctcactagtttgatctgtgcgttcgcacgcacaggcccggtgtgagaagggtctctgacgagcgggagaacccacccggggtgggcgagtttgtcctgcgtgtgctcggtcgagtaggctctgggagtacccgtgtgtacgaccagcacggcatacatcatttcgacgccgagagattcgccgcccgaaatgagcacgatccgcatgcttaacagaaaggaggttaataatgtcgaagggcgaggagctgttcaccggcgtcgtcccgatcctggtcgagctggacggtgacgtcaacggccacaagttctccgtctccggcgagggtgagggcgacgccacctacggcaagctgaccctgaagttcatctgcaccaccggtaagctgccggtcccgtggccgaccctggtcaccaccctgacctacggcgtccagtgcttctcccgctacccggaccacatgaagcgccacgacttcttcaagtccgccatgccggagggttacgtccaggagcgcaccatctccttcaaggacgacggtaactacaagacgcgtgccgaggtcaagttcgagggcgacaccctggtcaaccgcatcgagctgaagggcatcgacttcaaggaggacggtaacatcctgggccacaagctggagtacaactacaactcccacaacgtctacatcaccgcggacaagcagaagaacggcatcaaggccaacttcaagacccgccacaacatcgaggacggtggcgtccagctagccgaccactaccagcagaacaccccgatcggcgacggcccggtcctgctgccggacaaccactacctgtccacccagtccgccctgtccaaggacccgaacgagaagcgcgaccacatggtcctgctggagttcgtcaccgccgccggcatcacccacggcatggacgagctgtacaagtagatttatcaccagcccgtcatcgtactagttccatgagcgtcagaccccgtagaaaagatcaaaggatcttcttgagatcctttttttctgcgcgtaatctgctgcttgcaaacaaaaaaaccaccgctaccagcggtggtttgtttgccggatcaagagctaccaactctttttccgaaggtaactggcttcagcagagcgcagataccaaatactgtccttctagtgtagccgtagttaggccaccacttcaagaactctgtagcaccgcctacatacctcgctctgctaatcctgttaccagtggctgctgccagtggcgataagtcgtgtcttaccgggttggactcaagacgatagttaccggataaggcgcagcggtcgggctgaacggggggttcgtgcacacagcccagcttggagcgaacgacctacaccgaactgagatacctacagcgtgagctatgagaaagcgccacgcttcccgaggggagaaaggcggacaggtatccggtaagcggcagggtcggaacaggagagcgcacgagggagcttccagggggaaacgcctggtatctttatagtcctgtcgggtttcgccacctctgacttgagcgtcgatttttgtgatgctcgtcaggggggcggagcctatggaaaaacgccagcaacgcggcctttttacggttcctggccttttgctggccttttgctcacatgttctttcctgcgttatcccctgattctgtggataaccgtattaccgcctttgagtgagctgataccgctcgccgcagccgaacgaccgagcgcaacgcgtgagcccaccagctccgtaagttcgggcgctgtgtggctcgtacccgcgcattcaggcggcagggggtctaacgggtctaaggcggcgtgtacggccgccacagcggctctcagcggcccggaaacgtcctcgaaacgacgcatgtgttcctcctggttggtacaggtggttgggggtgctcggctgtcgctggtgttccaccaccagggctcgacgggagagcgggggagtgtgcagttgtggggtggcccctcagcgaaatatctgacttggagctcgtgtcggaccatacaccggtgattaatcgtggtctactaccaagcgtgagccacgtcgccgacgaatttgagcagctctggctgccgtactggccgctggcaagcgacgatctgctcgaggggatctaccgccaaagccgcgcgtcggccctaggccgccggtacatcgaggcgaacccaacagcgctggcaaacctgctggtcgtggacgtagaccatccagacgcagcgctccgagcgctcagcgcccgggggtcccatccgctgcccaacgcgatcgtgggcaatcgcgccaacggccacgcacacgcagtgtgggcactcaacgcccctgttccacgcaccgaatacgcgcggcgtaagccgctcgcatacatggcggcgtgcgccgaaggccttcggcgcgccgtcgatggcgaccgcagttactcaggcctcatgaccaaaaaccccggccacatcgcctgggaaacggaatggctccactcagatctctacacactcagccacatcgaggccgagctcggcgcgaacatgccaccgccgcgctggcgtcagcagaccacgtacaaagcggctccgacgccgctagggcggaattgcgcactgttcgattccgtcaggttgtgggcctatcgtcccgccctcatgcggatctacctgccgacccggaacgtggacggactcggccgcgcgatctatgccgagtgccacgcgcgaaacgccgaatttccgtgcaacgacgtgtgtcccggaccgctaccggacagcgaggtccgcgccatcgccaacagcatttggcgttggatcacaaccaagtcgcgcatttgggcggacgggatcgtggtctacgaggccacactcagtgcgcgccagtcggccatctcgcggaagggcgcagcagcgcgcacggcggcgagcacagttgcgcggcgcgcaaagtccgcgtcagccatggaggcattgctatgagcgacggctacagcgacggctacaaccggcagccgactgtccgcaaaaagcggcgcgtgaccgccgccgaaggcgctcgaatcaccggactatccgaacgccacgtcgtccggctcgtggcgcaggaacgcagcgagtggctcgccgagcaggctgcacgccgcgaacgcatccgcgcctatcacgacgacgagggccactcttggccgcaaacggccaaacatttcgggctgcatctggacaccgttaagcgactcggctatcgggcgaggaaagagcgtgcggcagaacaggaagcggctcaaaaggcccacaacgaagccgacaatccaccgctgttctaacgcaattggggagcgggtgtcgcgggggttccgtggggggttccgttgcaacgggtcggacaggtaaaagtcctggtagacgctagttttctggtttgggccatgcctgtctcgttgcgtgtttcgttgcgcccgttttgaataccagccagacgagacggggttctacgaatcttggtcgataccaagccatttccgctgaatatcggggagctcaccgccagaatcggtggttgtggtgatgtacgtggcgaactccgttgtagtgcctgtggtggcatccgtggcgcggccgcggtaccagatctttaaatctagataaagaagtgacgcggtctcaagcgtcgagcgtcgccagcgtgtcgaggatgtcgaagtcgtagccgtcggcgctggcgatgtagacctgctggtcgaattgactgtcgcgcatacacatcgggccccggggcccgtcgaacccgacatcgtgcgcggatgccatcaggtccggtatctcgggggagtgggcccgctggaagatggcctcgagcgcaagcagaccctcgtaacaggattcggccatcgcgttgagcggtggcgcgtcggcgccgtagcgggcgacgtagctgcccatcaggtccatggcacccgcggtggccagtgaactgaagtacgccgcggcgacatagaggttttcggtggagccggcgccgctggccagcagcatgttctcctccatcagcgggctgaaccgcgccatgcggtcgtgcccgccggcgcgcgcgaactcgcggttgaacaacacggcgtcctggccgacgagcagcatcaacacggcctgcgcccccgacgcgatggccttgcggacaggtgcgcggaaatcgtcggtgccgtacgggacgtagatctcccgtctgagctcgaggtccagatctcggcagtacgcgcgggcggccgcggcggaacggcgcggccagatgtagtcatcgccgaccaggcaccaggaccggatgccgaagtggtcgcgcagccaggcgagcgcgggcgcgatctggatctgcggtgtctcgcctgtgcagaacacgcccggtgtgcgttcaccgccctcgtacaacgaggtgtagacgtacgggatgcggtcgcggaccaccggggagatgcggttgcgcacggccgagatgtgccagccggtcacggcgtcgagaccgtgacctcgcaaccggtcggcgacggtccgggcgacgtcgtcgccgggcgctccgccgtcgagcacctcgatggtgaccttgcggccctgcaggccgcctcggtcgttgacctccttggccgcgagctcggccacggcctcgcacgaaggcgcgaagattcccgctggcccttgaagcggaatcaccagcccgacgcggaactcaacctcgccgtcctgcactccagatcaccgtcgatcccgtgtagtctgcgcttcaaagctttctagcagaaataattcattctgaacagaccccgccgtcgacacgaggagacacccaccatggccgccggacagcagcgccgccccaacctcctgctgccgttggtgcgtctgacccacctcgcggagtcggcgatcgaacgcgtgctcgcggactcgtcgctcaagatcgaggactggcgcgtgctcgacgagttggccggacggcgcaccgtgcccatgagcgatctcgcgcaggccacgctgatcacgggtccgactctcaccagaaccgtcgatcgccttgtgtcgcaagggatcatctaccggactgccgatctgcatgaccgccggcgggtgctcgtggcgttgaccccgcgggggcggacgctgcgcaaccgcctggtggacgcggtagccgaggccgagtgtgcggctttgaatcgtgcgtctgacga</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

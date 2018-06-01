@@ -1,0 +1,156 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:obo="http://purl.obolibrary.org/obo/">
+  <sbol:ComponentDefinition rdf:about="http://www.syntheticgenomics.com/KR011748/1">
+    <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/KR011748"/>
+    <sbol:displayId>KR011748</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:description>Synthetic construct nuclease deficient Cas9 (dcas9) gene, complete cds.</dcterms:description>
+    <genbank:locus>KR011748</genbank:locus>
+    <genbank:molecule>DNA</genbank:molecule>
+    <genbank:division>SYN</genbank:division>
+    <genbank:keywords>.</genbank:keywords>
+    <genbank:source>synthetic construct</genbank:source>
+    <genbank:organism>synthetic construct other sequences; artificial sequences.</genbank:organism>
+    <genbank:reference>
+      <genbank:Reference rdf:about="http://www.syntheticgenomics.com/KR011748/reference0">
+        <genbank:label>1  (bases 1 to 4107)</genbank:label>
+        <genbank:authors>Tong,Y., Charusanti,P., Zhang,L., Weber,T. and Lee,S.Y.</genbank:authors>
+        <genbank:title>CRISPR-Cas9 based engineering of actinomycetal genomes</genbank:title>
+        <genbank:journal>ACS Synth Biol (2015) In press</genbank:journal>
+        <genbank:pubmed>25806970 REMARK    Publication Status: Available-Online prior to print</genbank:pubmed>
+      </genbank:Reference>
+    </genbank:reference>
+    <obo:OBI_0001617>25806970 REMARK    Publication Status: Available-Online prior to print</obo:OBI_0001617>
+    <genbank:reference>
+      <genbank:Reference rdf:about="http://www.syntheticgenomics.com/KR011748/reference1">
+        <genbank:label>2  (bases 1 to 4107)</genbank:label>
+        <genbank:authors>Tong,Y., Charusanti,P., Zhang,L., Weber,T. and Lee,S.Y.</genbank:authors>
+        <genbank:title>Direct Submission</genbank:title>
+        <genbank:journal>Submitted (23-MAR-2015) The Novo Nordisk Foundation Center for Biosustainability, Kogle Alle 6, Horsholm 2970, Denmark</genbank:journal>
+      </genbank:Reference>
+    </genbank:reference>
+    <genbank:comment>##Assembly-Data-START## Sequencing Technology :: Sanger dideoxy sequencing ##Assembly-Data-END##</genbank:comment>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/KR011748/annotation3/1">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/KR011748/annotation3"/>
+        <sbol:displayId>annotation3</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>dcas9</dcterms:title>
+        <gbConv:gene>dcas9</gbConv:gene>
+        <gbConv:note>D10A</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001060"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/KR011748/annotation3/range/1">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/KR011748/annotation3/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>28</sbol:start>
+            <sbol:end>30</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/KR011748/annotation4/1">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/KR011748/annotation4"/>
+        <sbol:displayId>annotation4</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>dcas9</dcterms:title>
+        <gbConv:gene>dcas9</gbConv:gene>
+        <gbConv:note>H840A</gbConv:note>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001060"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/KR011748/annotation4/range/1">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/KR011748/annotation4/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>2518</sbol:start>
+            <sbol:end>2520</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/KR011748/annotation2/1">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/KR011748/annotation2"/>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>nuclease deficient Cas9</dcterms:title>
+        <gbConv:gene>dcas9</gbConv:gene>
+        <gbConv:note>codon optimized</gbConv:note>
+        <gbConv:codon_start>1</gbConv:codon_start>
+        <gbConv:transl_table>11</gbConv:transl_table>
+        <gbConv:product>nuclease deficient Cas9</gbConv:product>
+        <gbConv:protein_id>AKA60242.1</gbConv:protein_id>
+        <gbConv:translation>MDKKYSIGLAIGTNSVGWAVITDEYKVPSKKFKVLGNTDRHSIKKNLIGALLFDSGETAEATRLKRTARRRYTRRKNRICYLQEIFSNEMAKVDDSFFHRLEESFLVEEDKKHERHPIFGNIVDEVAYHEKYPTIYHLRKKLVDSTDKADLRLIYLALAHMIKFRGHFLIEGDLNPDNSDVDKLFIQLVQTYNQLFEENPINASGVDAKAILSARLSKSRRLENLIAQLPGEKKNGLFGNLIALSLGLTPNFKSNFDLAEDAKLQLSKDTYDDDLDNLLAQIGDQYADLFLAAKNLSDAILLSDILRVNTEITKAPLSASMIKRYDEHHQDLTLLKALVRQQLPEKYKEIFFDQSKNGYAGYIDGGASQEEFYKFIKPILEKMDGTEELLVKLNREDLLRKQRTFDNGSIPHQIHLGELHAILRRQEDFYPFLKDNREKIEKILTFRIPYYVGPLARGNSRFAWMTRKSEETITPWNFEEVVDKGASAQSFIERMTNFDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGEQKKAIVDLLFKTNRKVTVKQLKEDYFKKIECFDSVEISGVEDRFNASLGTYHDLLKIIKDKDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMKQLKRRRYTGWGRLSRKLINGIRDKQSGKTILDFLKSDGFANRNFMQLIHDDSLTFKEDIQKAQVSGQGDSLHEHIANLAGSPAIKKGILQTVKVVDELVKVMGRHKPENIVIEMARENQTTQKGQKNSRERMKRIEEGIKELGSQILKEHPVENTQLQNEKLYLYYLQNGRDMYVDQELDINRLSDYDVDAIVPQSFLKDDSIDNKVLTRSDKNRGKSDNVPSEEVVKKMKNYWRQLLNAKLITQRKFDNLTKAERGGLSELDKAGFIKRQLVETRQITKHVAQILDSRMNTKYDENDKLIREVKVITLKSKLVSDFRKDFQFYKVREINNYHHAHDAYLNAVVGTALIKKYPKLESEFVYGDYKVYDVRKMIAKSEQEIGKATAKYFFYSNIMNFFKTEITLANGEIRKRPLIETNGETGEIVWDKGRDFATVRKVLSMPQVNIVKKTEVQTGGFSKESILPKRNSDKLIARKKDWDPKKYGGFDSPTVAYSVLVVAKVEKGKSKKLKSVKELLGITIMERSSFEKNPIDFLEAKGYKEVKKDLIIKLPKYSLFELENGRKRMLASAGELQKGNELALPSKYVNFLYLASHYEKLKGSPEDNEQKQLFVEQHKHYLDEIIEQISEFSKRVILADANLDKVLSAYNKHRDKPIREQAENIIHLFTLTNLGAPAAFKYFDTTIDRKRYTSTKEVLDATLIHQSITGLYETRIDLSQLGGD</gbConv:translation>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/KR011748/annotation2/range/1">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/KR011748/annotation2/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>1</sbol:start>
+            <sbol:end>4107</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/KR011748/annotation0/1">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/KR011748/annotation0"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>synthetic construct</dcterms:title>
+        <gbConv:organism>synthetic construct</gbConv:organism>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <gbConv:db_xref>taxon:32630</gbConv:db_xref>
+        <gbConv:clone>CRISPR-dCas9</gbConv:clone>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000149"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/KR011748/annotation0/range/1">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/KR011748/annotation0/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>1</sbol:start>
+            <sbol:end>4107</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.syntheticgenomics.com/KR011748/annotation1/1">
+        <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/KR011748/annotation1"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>dcas9</dcterms:title>
+        <gbConv:gene>dcas9</gbConv:gene>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000704"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.syntheticgenomics.com/KR011748/annotation1/range/1">
+            <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/KR011748/annotation1/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>1</sbol:start>
+            <sbol:end>4107</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="http://www.syntheticgenomics.com/KR011748_seq/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://www.syntheticgenomics.com/KR011748_seq/1">
+    <sbol:persistentIdentity rdf:resource="http://www.syntheticgenomics.com/KR011748_seq"/>
+    <sbol:displayId>KR011748_seq</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>atggacaagaagtactccatcggcctcgcgatcggcaccaactccgtgggctgggcggtcatcaccgacgagtacaaggtcccctccaagaagttcaaggtcctgggcaacaccgaccggcactcgatcaagaagaacctgatcggcgccctgctcttcgacagcggcgagaccgccgaggcgacccgcctgaagcggaccgcgcgtcgccgctacacccggcgcaagaaccgcatctgctacctgcaggaaatcttctccaacgagatggccaaggtggacgactcgttcttccaccgcctggaggagagcttcctggtggaggaggacaagaagcacgagcgccacccgatcttcggcaacatcgtggacgaggtggcctaccacgagaagtaccccaccatctaccacctccgcaagaagctggtggactcgaccgacaaggcggacctgcggctcatctacctggccctcgcgcacatgatcaagttccgcggccacttcctcatcgagggcgacctgaacccggacaactccgacgtggacaagctcttcatccagctggtgcagacctacaaccagctgttcgaggagaaccccatcaacgccagcggcgtggacgccaaggcgatcctctccgcgcgcctgagcaagtcccggcgcctggagaacctcatcgcccagctgccgggcgagaagaagaacggcctcttcggcaacctgatcgcgctgtcgctcggcctgacccccaacttcaagagcaacttcgacctggccgaggacgcgaagctccagctgtccaaggacacctacgacgacgacctggacaacctgctcgcccagatcggcgaccagtacgcggacctcttcctggccgcgaagaacctctcggacgccatcctgctcagcgacatcctgcgggtcaacaccgagatcaccaaggccccgctgtcggcgagcatgatcaagcggtacgacgagcaccaccaggacctgaccctgctcaaggccctcgtgcgccagcagctgcccgagaagtacaaggaaatcttcttcgaccagtccaagaacggctacgccggctacatcgacggcggcgcgtcgcaggaggagttctacaagttcatcaagccgatcctggagaagatggacggcaccgaggagctgctcgtcaagctgaaccgcgaggacctgctccgcaagcagcggaccttcgacaacggctccatcccgcaccagatccacctgggcgagctccacgccatcctccggcgccaggaggacttctaccccttcctgaaggacaaccgcgagaagatcgagaagatcctgaccttccgcatcccgtactacgtcggccccctggcccgcggcaactcccggttcgcgtggatgacccggaagtcggaggagaccatcaccccgtggaacttcgaggaggtcgtggacaagggcgcgtccgcgcagtcgttcatcgagcgcatgaccaacttcgacaagaacctcccgaacgagaaggtcctgcccaagcactccctgctctacgagtacttcaccgtgtacaacgagctgaccaaggtcaagtacgtgaccgagggcatgcggaagccggccttcctgtcgggcgagcagaagaaggcgatcgtggacctgctcttcaagaccaaccgcaaggtcaccgtgaagcagctgaaggaggactacttcaagaagatcgagtgcttcgactccgtcgagatcagcggcgtggaggaccgcttcaacgcctccctgggcacctaccacgacctgctcaagatcatcaaggacaaggacttcctcgacaacgaggagaacgaggacatcctggaggacatcgtcctcaccctgaccctcttcgaggaccgcgagatgatcgaggagcggctcaagacctacgcccacctgttcgacgacaaggtgatgaagcagctgaagcgtcgccgctacaccggctggggccgcctctcccggaagctgatcaacggcatccgggacaagcagagcggcaagaccatcctggacttcctcaagtccgacggcttcgccaaccgcaacttcatgcagctcatccacgacgacagcctgaccttcaaggaggacatccagaaggcccaggtctcgggccagggcgacagcctccacgagcacatcgccaacctggcgggctccccggcgatcaagaagggcatcctccagaccgtcaaggtcgtggacgagctggtcaaggtgatgggccgccacaagcccgagaacatcgtgatcgagatggcccgggagaaccagaccacccagaagggccagaagaactcgcgcgagcggatgaagcggatcgaggagggcatcaaggagctcggcagccagatcctgaaggagcacccggtcgagaacacccagctgcagaacgagaagctgtacctctactacctgcagaacggccgcgacatgtacgtggaccaggagctcgacatcaaccggctgtccgactacgacgtggacgcgatcgtgccgcagtccttcctgaaggacgactcgatcgacaacaaggtcctgacccgctcggacaagaaccggggcaagtccgacaacgtgccctcggaggaggtcgtgaagaagatgaagaactactggcgccagctgctcaacgccaagctcatcacccagcgcaagttcgacaacctgaccaaggccgagcggggcggcctgagcgagctcgacaaggcgggcttcatcaagcgccagctggtcgagacccggcagatcaccaagcacgtggcccagatcctggactcccggatgaacaccaagtacgacgagaacgacaagctgatccgcgaggtcaaggtgatcaccctcaagagcaagctggtctccgacttccgcaaggacttccagttctacaaggtccgggagatcaacaactaccaccacgcccacgacgcgtacctgaacgccgtcgtgggcaccgcgctgatcaagaagtacccgaagctggagtccgagttcgtctacggcgactacaaggtctacgacgtgcgcaagatgatcgccaagagcgagcaggagatcggcaaggccaccgcgaagtacttcttctactccaacatcatgaacttcttcaagaccgagatcaccctggccaacggcgagatccgcaagcggcccctgatcgagaccaacggcgagaccggcgagatcgtctgggacaagggccgcgacttcgccaccgtccggaaggtgctgtcgatgccgcaggtcaacatcgtgaagaagaccgaggtgcagaccggcggcttcagcaaggagtccatcctccccaagcgcaacagcgacaagctgatcgcccggaagaaggactgggacccgaagaagtacggcggcttcgacagccccaccgtcgcctactccgtgctggtcgtggcgaaggtcgagaagggcaagagcaagaagctgaagtccgtgaaggagctgctcggcatcaccatcatggagcgctcctcgttcgagaagaacccgatcgacttcctggaggccaagggctacaaggaggtcaagaaggacctcatcatcaagctgcccaagtacagcctgttcgagctggagaacggccgcaagcggatgctcgcctccgcgggcgagctgcagaagggcaacgagctggccctcccgtcgaagtacgtcaacttcctgtacctcgcgtcccactacgagaagctgaagggctcgcccgaggacaacgagcagaagcagctcttcgtggagcagcacaagcactacctggacgagatcatcgagcagatcagcgagttcagcaagcgcgtcatcctggccgacgcgaacctcgacaaggtgctgtccgcctacaacaagcaccgcgacaagccgatccgggagcaggcggagaacatcatccacctgttcaccctcaccaacctgggcgcccccgccgcgttcaagtacttcgacaccaccatcgaccgcaagcggtacacctccaccaaggaggtcctcgacgcgaccctgatccaccagagcatcaccggcctgtacgagacccgcatcgacctgtcccagctcggcggcgactga</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

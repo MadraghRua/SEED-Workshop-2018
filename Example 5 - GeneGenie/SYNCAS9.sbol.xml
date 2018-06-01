@@ -1,0 +1,3166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:RDF xmlns="http://sbols.org/v1#" xmlns:ns2="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <DnaComponent ns2:about="http://gene-genie.org/a2325232-d946-41e0-a63d-58119cb8335d">
+        <displayId>Gene</displayId>
+        <name>Gene</name>
+        <dnaSequence>
+            <DnaSequence ns2:about="http://gene-genie.org/8dacafb0-9bd5-47af-a319-f48e192acc52">
+                <nucleotides>gataagaagtatagcatcggccttgccataggcaccaactcagttggatgggctgtgattacagatgagtacaaggttccatccaaaaagtttaaagttttggggaacacagaccgccattctattaagaaaaaccttattggggccctgttatttgactccggtgagactgctgaagcaacaaggctgaaaagaacagctcggcgcagatacaccaggagaaagaatcggatctgctatcttcaggagatctttagcaatgaaatggctaaagtcgatgacagtttcttccatagactggaggagtcctttttggttgaagaggacaaaaagcacgagcggcatcccatcttcggcaacatcgtggatgaagtcgcataccatgaaaagtatcctacaatttaccacctgcggaaaaaattggtggacagcacagataaggctgacctgcggctcatttacctggcccttgcccacatgataaaatttaggggccatttcctgatcgaaggagatctgaaccccgacaactcagacgtagataagctgttcatccaattagtccaaacatataatcagctattcgaggaaaacccaatcaacgcctcaggcgttgatgctaaagcgatactgtccgcgaggttgagcaaaagccggcgccttgagaaccttattgcgcaactaccaggagagaaaaagaacgggctgtttggcaatctgattgcgctgtctctgggcctgacacctaacttcaagtcaaacttcgacttggcagaggatgcaaagttgcagctgagtaaggacacatacgacgacgacctggataatctgcttgcacagattggagatcagtatgctgacctctttttagccgcaaagaacctgtctgatgcgatattgctatccgatattctgcgcgtgaacacagagatcacaaaggcacccctcagcgcaagtatgatcaagcgctacgatgagcatcatcaagatctgacactgttgaaggctctggttcgccaacagctgccagaaaagtacaaggagatcttcttcgatcagtccaagaacgggtatgctgggtacattgatgggggcgcctcccaggaggagttttataagttcatcaagcccattctggagaagatggatggcactgaagaactgctggtgaagctcaatcgcgaagatctgctgaggaaacagaggacttttgacaacggctcgattcctcatcagattcacctgggtgagctgcacgcaattctgaggagacaggaggacttctacccattccttaaggacaatcgtgagaagatcgaaaagatcctaacctttcggatcccgtattatgtcggcccgcttgccaggggaaattctcgctttgcctggatgacccggaagagtgaggagacgatcaccccctggaactttgaggaggtggtggacaaaggagcctccgcacagtccttcatcgagcggatgaccaactttgataagaatctaccgaacgagaaagttcttcccaagcacagtctcctgtatgagtacttcaccgtctataacgagctcacgaaggttaaatacgtcacagaagggatgaggaaacctgcatttctctctggggaacagaaaaaagctatcgtggatctgttatttaaaaccaacaggaaggttacagtgaagcagctaaaggaggactactttaaaaagatcgagtgcttcgattccgtagaaatctccggcgtggaggataggttcaatgcgtccttgggcacttaccatgatctgctgaagataattaaggacaaggatttcctggataatgaggagaatgaagacattttggaagacatagttctgactcttacattgtttgaggatcgagagatgattgaagagaggctgaaaacgtacgcccatctgttcgatgacaaggtgatgaaacagctgaagagacggcgatacaccgggtggggaaggctgtctcggaagctgattaacgggatacgtgataaacagtctgggaagacaatcctggacttcctgaagtctgatgggttcgcaaatagaaatttcatgcaactgatacacgatgactctctgacgttcaaagaggacatccagaaggcccaggtgtccggccagggggacagtctgcacgaacatatcgctaaccttgctggttctcccgccataaagaagggcatcttgcagacagttaaggttgtagatgagctggtgaaagtcatgggaaggcacaaacccgagaatattgtgatagagatggctcgtgaaaaccagacaacccagaaggggcagaagaactccagagaaaggatgaagagaatcgaggaggggatcaaggaactgggctcccaaattctgaaagaacatcctgtggagaacacacagctccagaatgaaaagctgtacttatactacctgcagaacggcagggatatgtacgtcgatcaggaacttgatatcaaccggctctctgattacgatgttgacgccattgtcccccagagttttttaaaggatgatagcatcgacaacaaagtgctgactcggtccgataagaatcgtggcaagagtgacaacgtaccgtccgaagaggtggtgaaaaaaatgaagaattattggagacagctgctgaatgccaaactgattacacagaggaagtttgataatctcactaaagccgaacgtggcggcctgtccgaactggacaaagccgggtttatcaaaagacagttagtggagacccgtcagattaccaaacatgttgcccaaatcctggatagccgaatgaatactaaatatgacgaaaatgacaaacttatccgagaagttaaggtgatcaccctgaagagtaaattagtgtctgacttcaggaaggattttcaattttacaaggttcgggaaattaacaactatcaccatgctcatgacgcatacctgaatgccgtggtagggaccgcgttaatcaagaagtaccccaagttggagtccgagtttgtctacggggactacaaggtctacgacgtgaggaagatgattgctaagtcagaacaagagattggtaaagccaccgcaaaatactttttttactcaaacatcatgaacttctttaaaaccgagataacgctggccaatggggaaatccgcaaacgaccattaatcgagacaaatggtgagacaggagaaatagtttgggacaaaggccgcgatttcgcaactgtgcgaaaagttttaagcatgccacaagttaacatcgtcaagaaaaccgaagtgcagaccggggggttttccaaggagtcaatcctgcctaagagaaattctgacaaactgatagccagaaaaaaggattgggatccaaagaaatacggtgggttcgatagcccaaccgtggcctacagcgtcctggtggtggcaaaggtggagaagggtaagagtaagaaactgaagtcggtgaaggagctcctcggaatcaccattatggagcgctcctcttttgagaagaaccctatagactttctagaagcaaaggggtataaagaggttaaaaaagacctcatcataaagttgcctaagtatagcctgttcgagctcgagaatggccgtaaacgcatgctggcctcagccggagaactgcagaaaggaaatgaacttgctctgcccagtaaatacgttaactttttgtacctggcatcacactatgaaaagttaaaggggtcacctgaagataacgagcagaaacagttgttcgttgaacagcataagcattatttggacgaaattatcgagcagatctccgagtttagtaagagggtgattctggctgacgcaaatcttgataaggtgctcagcgcttacaataaacatagagacaagccaatcagggagcaagctgaaaacatcatccacctgttcacgctcaccaacttgggtgctcctgccgctttcaaatactttgataccaccatcgacaggaaacgctatacgtctaccaaggaggtcctagacgctaccttaattcaccaatcgattacaggcttatatgagactcgtatcgatttgagccagctcggaggggac</nucleotides>
+            </DnaSequence>
+        </dnaSequence>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/25e10b44-93c8-4db5-a5e5-355631bdab95">
+                <bioStart>1</bioStart>
+                <bioEnd>39</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/0afdac93-ee14-404a-8a4f-f360c4aec935">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #1</displayId>
+                        <name>Oligo #1</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/de5a450e-f862-46be-ac01-4c1ff010c68c">
+<nucleotides>gataagaagtatagcatcggccttgccataggcaccaac</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/91008f31-57e9-4642-848a-27eb3d386763">
+                <bioStart>22</bioStart>
+                <bioEnd>68</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/1c2489e0-498e-4a73-93dd-2342ea3d6aba">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #2</displayId>
+                        <name>Oligo #2</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/90e7aae8-b1b1-4436-aacb-699732ac2bd1">
+<nucleotides>tcatctgtaatcacagcccatccaactgagttggtgcctatggcaag</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/ee56cc05-5593-4f76-b0db-50ab139673c3">
+                <bioStart>50</bioStart>
+                <bioEnd>92</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/d8dc5db6-1194-4ea3-81bf-8795f643063c">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #3</displayId>
+                        <name>Oligo #3</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/1a4b661f-63d5-4069-ba10-0bf5047f42fb">
+<nucleotides>gggctgtgattacagatgagtacaaggttccatccaaaaagtt</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/fed33500-b372-4fdd-85b7-df16707203bd">
+                <bioStart>72</bioStart>
+                <bioEnd>113</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/74df6c55-4c0e-4c56-bf55-fd334c978a62">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #4</displayId>
+                        <name>Oligo #4</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/2d95949c-0aa8-4630-95a1-f4dbd892dcee">
+<nucleotides>tctgtgttccccaaaactttaaactttttggatggaaccttg</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/47430df5-ad81-4ea9-8c70-749501bda4be">
+                <bioStart>92</bioStart>
+                <bioEnd>128</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/099158d1-b2b4-45ea-8127-b61e3e48c50e">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #5</displayId>
+                        <name>Oligo #5</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/07da6946-adee-4cda-88f1-f456f70f8eb0">
+<nucleotides>ttaaagttttggggaacacagaccgccattctattaa</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/d0f8f6bd-842e-4435-ba6c-ecce4f5e7cfd">
+                <bioStart>109</bioStart>
+                <bioEnd>158</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/43d08045-7189-4159-893f-2a5aa61f4ddb">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #6</displayId>
+                        <name>Oligo #6</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/131b9181-5531-4cbd-9288-73136550df1b">
+<nucleotides>tcaaataacagggccccaataaggtttttcttaatagaatggcggtctgt</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/57076757-bad8-41f4-9465-1cdbbb41d99e">
+                <bioStart>139</bioStart>
+                <bioEnd>183</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/8d94999f-25c2-4a17-9afb-f23eeb9a27b5">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #7</displayId>
+                        <name>Oligo #7</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/c2ab3fc2-5515-469a-9935-c9cc256d3387">
+<nucleotides>attggggccctgttatttgactccggtgagactgctgaagcaaca</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/15d119e9-afaa-4e77-99d8-979cb3d3ab5e">
+                <bioStart>165</bioStart>
+                <bioEnd>212</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/de9d445a-a4b0-43d8-8cc0-65d1652cb4ac">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #8</displayId>
+                        <name>Oligo #8</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/d5b6efe0-9761-4f4a-98f3-7b4c51156f31">
+<nucleotides>tatctgcgccgagctgttcttttcagccttgttgcttcagcagtctca</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/ed5b06a0-914a-4b0b-bf1d-bcfe4f321d09">
+                <bioStart>199</bioStart>
+                <bioEnd>233</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/d96e70ef-57ea-432d-8d02-bc4e84e5e80f">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #9</displayId>
+                        <name>Oligo #9</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/75792033-2b8b-4aa8-837d-a0c34ea3c73e">
+<nucleotides>gctcggcgcagatacaccaggagaaagaatcggat</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/ccc64df9-9090-4f6b-b3ca-c0a8426dedc0">
+                <bioStart>214</bioStart>
+                <bioEnd>262</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/33748183-c6c0-4cc2-8c6b-852b8c50266a">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #10</displayId>
+                        <name>Oligo #10</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/8c7ceafa-e24a-4ea4-8f82-b8b47834d129">
+<nucleotides>cattgctaaagatctcctgaagatagcagatccgattctttctcctggt</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/cc7e2e1a-6b78-401f-8a12-1bbabb354573">
+                <bioStart>240</bioStart>
+                <bioEnd>286</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/d08b1ae5-682e-4a23-a2eb-918279ce92a7">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #11</displayId>
+                        <name>Oligo #11</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/d48fac9e-19b2-4864-8565-e1a3d1b9b7cc">
+<nucleotides>tcttcaggagatctttagcaatgaaatggctaaagtcgatgacagtt</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/1a99a3c2-8e7b-452f-80d9-5229fea46737">
+                <bioStart>267</bioStart>
+                <bioEnd>313</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/91635908-fc71-4068-b835-12c443d860cc">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #12</displayId>
+                        <name>Oligo #12</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/93154b56-aa94-4d08-a35b-b77baa2c8035">
+<nucleotides>aaaaggactcctccagtctatggaagaaactgtcatcgactttagcc</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/ff30c0a7-4653-4726-84f3-dc586902b62c">
+                <bioStart>296</bioStart>
+                <bioEnd>342</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/f399dabc-83dc-422f-91aa-db95ef7e8601">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #13</displayId>
+                        <name>Oligo #13</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/2b2bd196-365a-44bb-a1ad-f1b500a50bfa">
+<nucleotides>gactggaggagtcctttttggttgaagaggacaaaaagcacgagcgg</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/c707e702-2d0a-46b3-b65d-6b9b5082f1ef">
+                <bioStart>325</bioStart>
+                <bioEnd>363</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/fcbaf975-ddf2-438c-a53f-75ae953548c5">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #14</displayId>
+                        <name>Oligo #14</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/5b8f52c0-8d34-40c5-bf83-47fd6218ce75">
+<nucleotides>gatgttgccgaagatgggatgccgctcgtgctttttgtc</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/20f61a5c-9e7c-4253-ad68-a76ca23bc4d0">
+                <bioStart>345</bioStart>
+                <bioEnd>393</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/bfbd5a2d-83ee-49b9-9f99-fffafde8ba00">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #15</displayId>
+                        <name>Oligo #15</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/9e0bc9b8-a496-433f-b90e-0a0fc446c9f9">
+<nucleotides>tcccatcttcggcaacatcgtggatgaagtcgcataccatgaaaagtat</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/88658c1d-effe-4ee6-918c-40850e8344f2">
+                <bioStart>373</bioStart>
+                <bioEnd>413</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/6936764d-7d5d-4b00-a426-861488cb5a0b">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #16</displayId>
+                        <name>Oligo #16</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/de93e529-9394-464c-80c2-1f3f5a3bc9b7">
+<nucleotides>cgcaggtggtaaattgtaggatacttttcatggtatgcgac</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/b8b23b44-267d-416c-a2d3-a09d87acbc75">
+                <bioStart>394</bioStart>
+                <bioEnd>438</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/89c19016-c428-443b-9d96-659c807970ca">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #17</displayId>
+                        <name>Oligo #17</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/f9d9e797-2d77-402d-a5bc-e417fbf713da">
+<nucleotides>cctacaatttaccacctgcggaaaaaattggtggacagcacagat</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/a0514f4f-9740-4e14-b674-da127030dc0a">
+                <bioStart>421</bioStart>
+                <bioEnd>460</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/148692e5-c156-4a02-9a4e-f274d4e7d9a3">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #18</displayId>
+                        <name>Oligo #18</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/37069838-9d39-470c-a7f1-abca651ef47a">
+<nucleotides>aaatgagccgcaggtcagccttatctgtgctgtccaccaa</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/0e17f92f-a127-43e2-9217-2482360a1f54">
+                <bioStart>444</bioStart>
+                <bioEnd>478</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/c9e0d65f-2144-44c6-8187-31487d94ee1d">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #19</displayId>
+                        <name>Oligo #19</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/c246d6dc-94a0-4960-a591-c4add172a557">
+<nucleotides>tgacctgcggctcatttacctggcccttgcccaca</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/5911e252-23da-462a-8ad6-c6c29c7ac6fa">
+                <bioStart>464</bioStart>
+                <bioEnd>513</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/64b14434-795a-437f-83c3-38b3ad65f3fb">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #20</displayId>
+                        <name>Oligo #20</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/3e0d56fb-325e-4e5f-a4af-5f567e4ae57a">
+<nucleotides>tccttcgatcaggaaatggcccctaaattttatcatgtgggcaagggcca</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/cb334d73-a8fb-4737-ae74-32f7448e3d18">
+                <bioStart>495</bioStart>
+                <bioEnd>537</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/aa1ecf9d-1180-4483-ac24-4053322b16a9">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #21</displayId>
+                        <name>Oligo #21</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/3db3c7ac-ea94-43a1-90f1-74378daa44a4">
+<nucleotides>ccatttcctgatcgaaggagatctgaaccccgacaactcagac</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/0e4a3856-e5f6-4057-ab3c-2fc9c42c9d90">
+                <bioStart>519</bioStart>
+                <bioEnd>556</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/58547e56-de3d-47da-bf30-cd20509c7e1b">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #22</displayId>
+                        <name>Oligo #22</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/2311dad0-8910-4046-8977-47e8a2493fe2">
+<nucleotides>ggatgaacagcttatctacgtctgagttgtcggggttc</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/aef2c760-4c97-4230-8466-6f7ca7e9b2c4">
+                <bioStart>537</bioStart>
+                <bioEnd>585</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/961a1ec7-93f8-4208-ac0e-577424b4e4bd">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #23</displayId>
+                        <name>Oligo #23</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/50e22d76-74af-497e-a2ae-1d24f709db8c">
+<nucleotides>cgtagataagctgttcatccaattagtccaaacatataatcagctattc</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/c40eef91-688f-4175-ac5d-0961f99d927a">
+                <bioStart>559</bioStart>
+                <bioEnd>606</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/fa2800d4-46f8-4523-b860-056b9ea5b049">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #24</displayId>
+                        <name>Oligo #24</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/c931154a-e659-4d83-963a-e793cf44ea8f">
+<nucleotides>ggcgttgattgggttttcctcgaatagctgattatatgtttggactaa</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/bd114575-a591-4e74-b729-596860a2a3d9">
+                <bioStart>588</bioStart>
+                <bioEnd>635</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/3c5868ea-dee8-4657-8e04-3f27a5f35c1f">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #25</displayId>
+                        <name>Oligo #25</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/1a5ecaab-f838-47c5-aea7-419fe9495f4e">
+<nucleotides>ggaaaacccaatcaacgcctcaggcgttgatgctaaagcgatactgtc</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/f294079e-e0ab-4fce-8164-ae44c24b11a7">
+                <bioStart>613</bioStart>
+                <bioEnd>659</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/eb9b17c3-230d-4ff7-85f7-2eb5def4d43f">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #26</displayId>
+                        <name>Oligo #26</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/3782c773-1068-4cf0-9ba8-811f4c5fed70">
+<nucleotides>cgccggcttttgctcaacctcgcggacagtatcgctttagcatcaac</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/f4d9e47c-e45d-49a8-a180-c7f0131d41a1">
+                <bioStart>643</bioStart>
+                <bioEnd>690</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/3603705f-2dc4-4844-bef2-6a16fa109e4c">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #27</displayId>
+                        <name>Oligo #27</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/37adfb12-428d-43ab-8b17-aacd696560e6">
+<nucleotides>ttgagcaaaagccggcgccttgagaaccttattgcgcaactaccagga</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/5bea4493-1ab4-4831-bf30-485e9cf57e76">
+                <bioStart>674</bioStart>
+                <bioEnd>706</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/c39633f6-d615-473e-bc1f-28d6c89946b9">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #28</displayId>
+                        <name>Oligo #28</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/dd371b51-7bdc-40d1-8090-ae1c6bcf604e">
+<nucleotides>gcccgttctttttctctcctggtagttgcgcaa</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/16c60e59-86d5-44a4-8238-59a3dcf623f0">
+                <bioStart>688</bioStart>
+                <bioEnd>732</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/81e4c19b-ab20-4fee-9d0b-b65d043957b4">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #29</displayId>
+                        <name>Oligo #29</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/53a6d366-9e64-4793-89b2-04ffe8e684c5">
+<nucleotides>ggagagaaaaagaacgggctgtttggcaatctgattgcgctgtct</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/b745cb3c-d8ae-4294-9649-44c5c9e9a1ff">
+                <bioStart>714</bioStart>
+                <bioEnd>744</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/a07cbc9b-ee66-4aa8-9285-25ecb8098659">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #30</displayId>
+                        <name>Oligo #30</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/7bc72aa2-a677-42c3-af8f-d51b063fe043">
+<nucleotides>tgtcaggcccagagacagcgcaatcagattg</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/419e4305-deb7-4de0-b76d-349ec2900aea">
+                <bioStart>731</bioStart>
+                <bioEnd>780</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/7a6af41b-f7cb-4598-bfe5-6f8549344c37">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #31</displayId>
+                        <name>Oligo #31</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/bc54cf73-4599-48b4-a751-6a27e0f9b9ad">
+<nucleotides>ctctgggcctgacacctaacttcaagtcaaacttcgacttggcagaggat</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/9b05c325-6490-4eae-8f8c-9f0d39bdf7f7">
+                <bioStart>765</bioStart>
+                <bioEnd>798</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/571f2877-64ef-4a2c-8024-c8e0a5da57dd">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #32</displayId>
+                        <name>Oligo #32</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/4dc437c8-06a8-4d1d-b521-fabc632b6467">
+<nucleotides>actcagctgcaactttgcatcctctgccaagtcg</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/7fb21502-530f-4fa1-b786-32d8fc735c91">
+                <bioStart>781</bioStart>
+                <bioEnd>830</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/b5aba54c-bdc3-4057-913b-27457966177a">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #33</displayId>
+                        <name>Oligo #33</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/ddd56230-b719-40ac-90f4-55d6e40c297e">
+<nucleotides>gcaaagttgcagctgagtaaggacacatacgacgacgacctggataatct</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/5f73f930-a5f4-4443-abc2-6d299d3cf27b">
+                <bioStart>812</bioStart>
+                <bioEnd>856</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/c1fb3926-7ab4-4450-a3ae-b0580fc25137">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #34</displayId>
+                        <name>Oligo #34</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/3af0a02a-44f3-497a-8c93-c3b8388c86c5">
+<nucleotides>catactgatctccaatctgtgcaagcagattatccaggtcgtcgt</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/9308820d-5a54-4332-b1ff-410ad78d9d0e">
+                <bioStart>836</bioStart>
+                <bioEnd>873</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/2521f56a-1cb6-4154-8853-0d450ae2552f">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #35</displayId>
+                        <name>Oligo #35</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/92c706a4-8671-4da4-92a4-78c7172cb6cc">
+<nucleotides>cacagattggagatcagtatgctgacctctttttagcc</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/f4f7e38e-919b-4a09-9138-19992ec8e6a1">
+                <bioStart>855</bioStart>
+                <bioEnd>896</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/74ebc6a7-e979-46e3-8358-9b3e48ec4e40">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #36</displayId>
+                        <name>Oligo #36</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/4d1bcb89-1506-45de-b71d-7adff3b1dd03">
+<nucleotides>atcgcatcagacaggttctttgcggctaaaaagaggtcagca</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/7c670182-e96b-4ac3-81ec-55882b746a39">
+                <bioStart>879</bioStart>
+                <bioEnd>928</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/adb7398c-7a11-4428-b38b-924881c0883b">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #37</displayId>
+                        <name>Oligo #37</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/617aa584-6e71-406b-861e-9772e2535d8c">
+<nucleotides>gaacctgtctgatgcgatattgctatccgatattctgcgcgtgaacacag</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/dad50dba-6171-4631-a994-f489861dbd03">
+                <bioStart>908</bioStart>
+                <bioEnd>957</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/8a9168cb-34dc-4fca-b134-3d55224f017e">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #38</displayId>
+                        <name>Oligo #38</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/4d753657-4067-4a10-8768-351938b9d562">
+<nucleotides>acttgcgctgaggggtgcctttgtgatctctgtgttcacgcgcagaatat</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/65c2644f-731a-40c3-8160-99a968d7feed">
+                <bioStart>943</bioStart>
+                <bioEnd>989</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/c24b7227-0d01-40cd-94ea-cefa044289c9">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #39</displayId>
+                        <name>Oligo #39</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/07b7b752-23d1-4c16-bce0-adffe4d8ea97">
+<nucleotides>cccctcagcgcaagtatgatcaagcgctacgatgagcatcatcaaga</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/c95a3b9b-8db4-420d-b109-8a06240145d0">
+                <bioStart>969</bioStart>
+                <bioEnd>1012</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/698e02b3-e298-4aa8-aca6-ae5e0ad2f5ba">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #40</displayId>
+                        <name>Oligo #40</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/7129e181-e02b-4f01-880d-6a6613ba8920">
+<nucleotides>ccagagccttcaacagtgtcagatcttgatgatgctcatcgtag</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/584c783b-4c57-4a24-a2ff-e99a0912530b">
+                <bioStart>994</bioStart>
+                <bioEnd>1042</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/04cf5c12-3e68-4d4f-9640-9156770ee93b">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #41</displayId>
+                        <name>Oligo #41</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/0594f493-9bc8-4d7f-8e08-87ccc254861f">
+<nucleotides>acactgttgaaggctctggttcgccaacagctgccagaaaagtacaagg</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/d6e0af42-a3fc-4467-b3d6-88973583530d">
+                <bioStart>1024</bioStart>
+                <bioEnd>1070</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/58d25738-660d-4845-a80e-78b22daddff8">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #42</displayId>
+                        <name>Oligo #42</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/3387e932-30e9-43cc-bda1-455d40964604">
+<nucleotides>ccgttcttggactgatcgaagaagatctccttgtacttttctggcag</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/efcf8bb5-8e02-4759-a2f3-39350e1dea0c">
+                <bioStart>1051</bioStart>
+                <bioEnd>1094</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/dbec7a67-dc62-4e84-9d28-05b570450d0e">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #43</displayId>
+                        <name>Oligo #43</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/969b699a-988c-45b1-8360-19db3ab6859b">
+<nucleotides>ttcgatcagtccaagaacgggtatgctgggtacattgatggggg</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/d85b12eb-111b-401a-80d2-b1cdc6715a79">
+                <bioStart>1078</bioStart>
+                <bioEnd>1123</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/3de34e20-6198-4c4d-a69b-513749e072a3">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #44</displayId>
+                        <name>Oligo #44</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/2b05122e-2ab8-45e1-a847-024472b4bfdb">
+<nucleotides>tgaacttataaaactcctcctgggaggcgcccccatcaatgtaccc</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/c553c344-34e9-400d-a003-d6d4ddf63357">
+                <bioStart>1102</bioStart>
+                <bioEnd>1137</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/0cae1b2c-5df5-4e2f-80ab-1149b921f10e">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #45</displayId>
+                        <name>Oligo #45</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/db69d96a-a3b9-4404-952a-1a3277a6c670">
+<nucleotides>caggaggagttttataagttcatcaagcccattctg</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/41009f11-4995-4f78-b6ab-8726e49079c9">
+                <bioStart>1114</bioStart>
+                <bioEnd>1163</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/4372056c-0a1d-47a0-b01f-38f41cdefc70">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #46</displayId>
+                        <name>Oligo #46</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/864b0196-5d20-4cf8-89ac-0f7a25152a8e">
+<nucleotides>agttcttcagtgccatccatcttctccagaatgggcttgatgaacttata</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/aee1c17e-9441-46ef-9c5a-c6b6199364ca">
+                <bioStart>1146</bioStart>
+                <bioEnd>1189</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/368e041b-b157-4e3d-b566-520ba0bb1fe4">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #47</displayId>
+                        <name>Oligo #47</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/5e5ff4d5-051f-4e91-ae88-1e3f9fabcd62">
+<nucleotides>ggatggcactgaagaactgctggtgaagctcaatcgcgaagatc</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/0b398344-0b06-494b-b41b-884593d8b24a">
+                <bioStart>1170</bioStart>
+                <bioEnd>1208</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/ecd511d3-6382-41dd-9257-65836ef24bb4">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #48</displayId>
+                        <name>Oligo #48</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/dd31c1d2-eb0a-437a-bb03-f0027ccb12e7">
+<nucleotides>gtcctctgtttcctcagcagatcttcgcgattgagcttc</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/655b314a-7e03-49e7-b97f-18c32092f7ae">
+                <bioStart>1191</bioStart>
+                <bioEnd>1240</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/0210edf9-68fc-4316-88e3-2c3697975095">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #49</displayId>
+                        <name>Oligo #49</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/cafc4c94-24f2-4b10-9737-f2b63c8f8a85">
+<nucleotides>gctgaggaaacagaggacttttgacaacggctcgattcctcatcagattc</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/aebfd55e-9856-4bc9-8080-4b0737e86757">
+                <bioStart>1220</bioStart>
+                <bioEnd>1266</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/9bdec30e-f2d5-43dd-b804-263e552a2f4b">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #50</displayId>
+                        <name>Oligo #50</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/6e4704ee-3a02-436a-a4c5-8c18bc0f921a">
+<nucleotides>cagaattgcgtgcagctcacccaggtgaatctgatgaggaatcgagc</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/a129a1cd-b1c5-4622-a120-af2741ef823d">
+                <bioStart>1247</bioStart>
+                <bioEnd>1288</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/9877c37b-1366-4372-a546-268fa5fce27f">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #51</displayId>
+                        <name>Oligo #51</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/4af74994-236c-4dc8-988f-d7eb53cbd0b6">
+<nucleotides>gtgagctgcacgcaattctgaggagacaggaggacttctacc</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/2835a0cc-76ee-48f4-b402-92cbc084339e">
+                <bioStart>1270</bioStart>
+                <bioEnd>1315</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/12802f36-d93b-4487-adc9-c7c00035de9f">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #52</displayId>
+                        <name>Oligo #52</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/dd94d063-220d-4f13-a5e4-db93f0b3d78e">
+<nucleotides>tcttctcacgattgtccttaaggaatgggtagaagtcctcctgtct</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/ce8b0e81-2e31-4c0a-84cd-6469da4df135">
+                <bioStart>1298</bioStart>
+                <bioEnd>1337</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/232452f6-ce61-4e2b-8b54-1dc12eb7e2b2">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #53</displayId>
+                        <name>Oligo #53</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/f6b3c961-1689-460f-a566-5f47b44799e1">
+<nucleotides>aggacaatcgtgagaagatcgaaaagatcctaacctttcg</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/f0d2d013-8601-4a3d-b6b7-9979b2cdd668">
+                <bioStart>1315</bioStart>
+                <bioEnd>1354</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/ed957799-b1a4-4409-981d-352ca3f9c500">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #54</displayId>
+                        <name>Oligo #54</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/e26ca912-319e-40fc-8024-c5854e9aa7e9">
+<nucleotides>cgacataatacgggatccgaaaggttaggatcttttcgat</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/703ae9d2-cf34-4ef9-b7d8-a060cfeca451">
+                <bioStart>1333</bioStart>
+                <bioEnd>1371</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/3a70716c-5de0-4596-ac75-7be88a259fda">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #55</displayId>
+                        <name>Oligo #55</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/f9c69c6c-d1e3-400a-b018-c5073be884a2">
+<nucleotides>tttcggatcccgtattatgtcggcccgcttgccagggga</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/09c6e122-f8de-43aa-ae30-292e10c2cabf">
+                <bioStart>1358</bioStart>
+                <bioEnd>1397</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/d44a369c-00a2-4b44-b149-7d43bd3b4b55">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #56</displayId>
+                        <name>Oligo #56</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/5cbe0b73-4988-427c-abb6-77a1863e10be">
+<nucleotides>cgggtcatccaggcaaagcgagaatttcccctggcaagcg</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/b9f43db3-70f5-485e-93ef-17353b8bb12a">
+                <bioStart>1383</bioStart>
+                <bioEnd>1431</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/703b2339-6e79-42dc-9e56-825174732ce8">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #57</displayId>
+                        <name>Oligo #57</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/c55d6f3e-d587-460b-a647-208610e4d976">
+<nucleotides>tgcctggatgacccggaagagtgaggagacgatcaccccctggaacttt</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/ce881305-6aa3-4de1-aa26-4bef2a01d155">
+                <bioStart>1414</bioStart>
+                <bioEnd>1453</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/5b8232e0-6930-48f5-b95f-593c540bb97f">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #58</displayId>
+                        <name>Oligo #58</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/b8c85bfa-7b86-4de2-8423-67cf9678315a">
+<nucleotides>ctcctttgtccaccacctcctcaaagttccagggggtgat</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/81b971cf-9d12-4768-bed0-65db868c2f37">
+                <bioStart>1437</bioStart>
+                <bioEnd>1481</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/74b92e74-e40c-47ca-b2c6-7b0d34f0f50b">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #59</displayId>
+                        <name>Oligo #59</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/1f99ef75-7782-4c55-847c-df5e5c1ea207">
+<nucleotides>ggtggtggacaaaggagcctccgcacagtccttcatcgagcggat</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/f85fbd6d-db7d-40d1-a313-22e05967d452">
+                <bioStart>1466</bioStart>
+                <bioEnd>1508</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/dd9b2f65-5b35-4249-806b-62727d1f869a">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #60</displayId>
+                        <name>Oligo #60</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/9fdac8e9-e62c-4fb0-b433-51ab8f6f7731">
+<nucleotides>ttcggtagattcttatcaaagttggtcatccgctcgatgaagg</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/c4162dc4-2e09-4a1d-9c8d-ef1b4eed05eb">
+                <bioStart>1485</bioStart>
+                <bioEnd>1530</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/71ce1432-829c-4d24-92b7-2f14b1a76221">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #61</displayId>
+                        <name>Oligo #61</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/8f795419-92ef-4097-b57e-7fe436a2519d">
+<nucleotides>caactttgataagaatctaccgaacgagaaagttcttcccaagcac</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/5a769d46-2dc3-4df7-acb7-3d658a202857">
+                <bioStart>1510</bioStart>
+                <bioEnd>1557</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/d950a47f-df2c-4c77-9f7e-e465f05001f7">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #62</displayId>
+                        <name>Oligo #62</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/2c65a5be-2d83-41f8-9b2f-07551dfebe9f">
+<nucleotides>gacggtgaagtactcatacaggagactgtgcttgggaagaactttctc</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/74ca3a9b-1257-4d36-b1fa-afaed0455248">
+                <bioStart>1539</bioStart>
+                <bioEnd>1581</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/ffa29978-21e9-42e4-8523-35cb84e4d4eb">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #63</displayId>
+                        <name>Oligo #63</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/fd3c6d3c-dc38-4e3c-a508-c3206a43dfa5">
+<nucleotides>gtatgagtacttcaccgtctataacgagctcacgaaggttaaa</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/20847900-0cb0-4bce-89d6-c562b5057d37">
+                <bioStart>1563</bioStart>
+                <bioEnd>1600</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/6c640ea1-324d-410f-81d0-0c9e422acda2">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #64</displayId>
+                        <name>Oligo #64</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/0a2c1c0b-4b96-49ad-9005-4f4c95ad14be">
+<nucleotides>tcatcccttctgtgacgtatttaaccttcgtgagctcg</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/db04f26f-1f17-4f40-838d-faf069ed0855">
+                <bioStart>1582</bioStart>
+                <bioEnd>1631</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/5b54c7e8-5c69-4b78-b170-97e34ee2849b">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #65</displayId>
+                        <name>Oligo #65</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/3c9ac92d-027f-4cf5-bb96-84be4912c032">
+<nucleotides>tacgtcacagaagggatgaggaaacctgcatttctctctggggaacagaa</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/8b08a87e-5f52-497d-94f7-70e1904d8f70">
+                <bioStart>1615</bioStart>
+                <bioEnd>1659</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/6b0d4a98-732c-474c-bb19-3bc925a70488">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #66</displayId>
+                        <name>Oligo #66</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/22d09add-3203-4d59-bb73-65299b4f64cc">
+<nucleotides>tttaaataacagatccacgatagcttttttctgttccccagagag</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/5a6b18b0-b788-4ceb-aa08-2f973edc32b6">
+                <bioStart>1632</bioStart>
+                <bioEnd>1680</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/d04ae8eb-b3b0-44b2-b35b-977b651177da">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #67</displayId>
+                        <name>Oligo #67</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/26fab84d-d157-43bd-9563-29f4a2ba65d1">
+<nucleotides>aaaagctatcgtggatctgttatttaaaaccaacaggaaggttacagtg</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/b8017cc6-468f-4bab-b2bf-a141f84835bd">
+                <bioStart>1659</bioStart>
+                <bioEnd>1706</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/c97dff61-b39f-48fb-a89f-e9c60571dfd2">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #68</displayId>
+                        <name>Oligo #68</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/8871856a-ca42-407e-84a7-db68629eda89">
+<nucleotides>ttaaagtagtcctcctttagctgcttcactgtaaccttcctgttggtt</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/cac9a985-1381-4221-8448-7d6052597a19">
+                <bioStart>1685</bioStart>
+                <bioEnd>1714</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/ca2de60a-969a-422f-b992-fc78f79d015a">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #69</displayId>
+                        <name>Oligo #69</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/6660f52f-d2b0-4a02-877a-5f211adba4e6">
+<nucleotides>agctaaaggaggactactttaaaaagatcg</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/21aa8fc5-64e0-433e-a03d-58da2ecc99ec">
+                <bioStart>1690</bioStart>
+                <bioEnd>1739</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/7e39455f-5e16-4d5b-9459-ead01c7babfd">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #70</displayId>
+                        <name>Oligo #70</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/398c56ca-6af9-4562-9eed-ab1e57eea125">
+<nucleotides>gagatttctacggaatcgaagcactcgatctttttaaagtagtcctcctt</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/13c487f2-7689-4a18-81e5-50e245f5da5d">
+                <bioStart>1719</bioStart>
+                <bioEnd>1757</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/1c6e2bd0-1ea2-433d-99dc-5549cd0e948b">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #71</displayId>
+                        <name>Oligo #71</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/0ca74ab8-4557-40d1-9d60-2d26602e2d14">
+<nucleotides>cttcgattccgtagaaatctccggcgtggaggataggtt</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/d386d783-3867-443b-ac28-d990756d0920">
+                <bioStart>1742</bioStart>
+                <bioEnd>1789</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/c4b65e86-ac14-428a-81d5-166a4f95218f">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #72</displayId>
+                        <name>Oligo #72</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/40c381cf-8338-4328-b744-5e3c410fec1e">
+<nucleotides>gcagatcatggtaagtgcccaaggacgcattgaacctatcctccacgc</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/755f207f-4172-4931-997c-cc2d63648f9b">
+                <bioStart>1771</bioStart>
+                <bioEnd>1816</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/812ae3f0-4747-4d1c-bbdb-c234565de4f5">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #73</displayId>
+                        <name>Oligo #73</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/2daf2ad7-2459-48e0-8f3e-9a1e76021fbe">
+<nucleotides>ggcacttaccatgatctgctgaagataattaaggacaaggatttcc</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/774c27cf-a881-4255-a5c4-d3bdd7889a9a">
+                <bioStart>1790</bioStart>
+                <bioEnd>1834</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/7af136a0-ff0d-4997-ac41-cd3445968433">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #74</displayId>
+                        <name>Oligo #74</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/8a8f7451-4df0-4af7-a924-32d193c3acf8">
+<nucleotides>cattctcctcattatccaggaaatccttgtccttaattatcttca</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/6efe8461-9ed0-4d96-87b9-7f794201f4c7">
+                <bioStart>1815</bioStart>
+                <bioEnd>1859</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/b11bb75b-7f47-40fb-804b-fa44f6008d36">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #75</displayId>
+                        <name>Oligo #75</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/a720826c-58df-42f2-beda-64d5525a80ff">
+<nucleotides>cctggataatgaggagaatgaagacattttggaagacatagttct</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/05676ff7-4029-4a6c-a4df-9f03f55590a9">
+                <bioStart>1836</bioStart>
+                <bioEnd>1878</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/f6725ed6-14ee-44ff-8f60-24c1170dcb7a">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #76</displayId>
+                        <name>Oligo #76</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/9a5bf046-90bc-4fcc-b473-95167e8b64ad">
+<nucleotides>ctcaaacaatgtaagagtcagaactatgtcttccaaaatgtct</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/d09da7f4-cd1c-420f-ab08-34584d275345">
+                <bioStart>1852</bioStart>
+                <bioEnd>1901</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/a792576b-0b45-42c5-bfd1-23c69f799c7e">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #77</displayId>
+                        <name>Oligo #77</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/83af1a26-b5a4-4221-84ea-7683eff458e6">
+<nucleotides>atagttctgactcttacattgtttgaggatcgagagatgattgaagagag</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/d3bc1802-dfc7-4b05-82b6-fd97b67ca321">
+                <bioStart>1881</bioStart>
+                <bioEnd>1929</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/dab919c0-b0fc-4191-9aa4-0d431f29c58f">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #78</displayId>
+                        <name>Oligo #78</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/eda0889f-3b33-4102-9ff5-8e99eae4c1c7">
+<nucleotides>atcgaacagatgggcgtacgttttcagcctctcttcaatcatctctcga</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/5283f2b7-bd64-4a61-860f-70acbf223b10">
+                <bioStart>1913</bioStart>
+                <bioEnd>1956</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/65a3c3ab-b726-4668-ac3c-c7f7be3ba322">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #79</displayId>
+                        <name>Oligo #79</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/ac592ada-563c-42d9-803d-56dc87309be5">
+<nucleotides>acgcccatctgttcgatgacaaggtgatgaaacagctgaagaga</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/d71b3e5c-4ffb-4df8-b5e7-bbb5d1a4d71c">
+                <bioStart>1937</bioStart>
+                <bioEnd>1978</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/0745927f-ba95-47d2-a926-5c023d824352">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #80</displayId>
+                        <name>Oligo #80</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/0d15ee51-095f-4ab6-9cb1-2452f4bd26c0">
+<nucleotides>ttccccacccggtgtatcgccgtctcttcagctgtttcatca</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/4342edd7-7e9b-4de6-966f-9ddc262e37d7">
+                <bioStart>1963</bioStart>
+                <bioEnd>2004</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/d2905e98-1ba5-40bc-8edc-53ca07167c70">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #81</displayId>
+                        <name>Oligo #81</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/12f58bec-d410-4fb0-bfe3-4edb720a83af">
+<nucleotides>tacaccgggtggggaaggctgtctcggaagctgattaacggg</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/3ff857cc-5181-4bd0-85e5-aaffc576b971">
+                <bioStart>1987</bioStart>
+                <bioEnd>2028</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/719908b4-b1be-4951-bf45-a689fb676337">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #82</displayId>
+                        <name>Oligo #82</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/7c48bced-9641-4128-a19c-3f1f70d9e7eb">
+<nucleotides>cttcccagactgtttatcacgtatcccgttaatcagcttccg</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/bf23a63b-d7d9-41e0-839e-f8e0088aecde">
+                <bioStart>2007</bioStart>
+                <bioEnd>2054</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/94cc4980-63bb-450a-9f70-e21d6b348176">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #83</displayId>
+                        <name>Oligo #83</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/c83565b7-cbf2-4eb5-b537-d1e6fc356b91">
+<nucleotides>acgtgataaacagtctgggaagacaatcctggacttcctgaagtctga</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/6fe113ca-26b5-4e3b-9a29-b8301eab59e1">
+                <bioStart>2036</bioStart>
+                <bioEnd>2079</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/7c65571c-341f-4b98-8ac6-dd4b61d119bf">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #84</displayId>
+                        <name>Oligo #84</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/37ab5837-5da2-43ef-8062-29ef7b1d9520">
+<nucleotides>catgaaatttctatttgcgaacccatcagacttcaggaagtcca</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/f5a571fa-4be4-40a9-b0c7-ba785f1c9f21">
+                <bioStart>2054</bioStart>
+                <bioEnd>2098</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/2cd4ab24-c784-4118-9300-1d6967cb2d38">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #85</displayId>
+                        <name>Oligo #85</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/486658f6-1adb-4173-9e05-f029d1c1c010">
+<nucleotides>atgggttcgcaaatagaaatttcatgcaactgatacacgatgact</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/51f606af-3a69-452c-b4e0-d84c7dfcbb8a">
+                <bioStart>2078</bioStart>
+                <bioEnd>2121</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/c239221c-90cc-487d-840a-26d88eaeafba">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #86</displayId>
+                        <name>Oligo #86</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/09d5fed9-3971-4114-b309-3823bbd1d979">
+<nucleotides>gatgtcctctttgaacgtcagagagtcatcgtgtatcagttgca</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/baa71a7b-ce52-4d60-85ca-6d57568a60ec">
+                <bioStart>2102</bioStart>
+                <bioEnd>2138</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/2bb7ede2-851f-4496-86b1-d514fbfbcbf7">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #87</displayId>
+                        <name>Oligo #87</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/5bc2451b-2661-4498-ab1e-1007581250e7">
+<nucleotides>tgacgttcaaagaggacatccagaaggcccaggtgtc</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/4238476b-27dd-4c29-a7ac-1ad3e96adeb3">
+                <bioStart>2123</bioStart>
+                <bioEnd>2172</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/8d3ba53e-ac1c-4a6f-ac0e-03c508065a26">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #88</displayId>
+                        <name>Oligo #88</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/b2ebff55-05fc-4fe6-9546-e33b8559f953">
+<nucleotides>agcgatatgttcgtgcagactgtccccctggccggacacctgggccttct</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/eae2d756-af78-4e5c-b936-e1dafb98dca1">
+                <bioStart>2155</bioStart>
+                <bioEnd>2199</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/01dc75bc-9d33-479d-9533-d51652285856">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #89</displayId>
+                        <name>Oligo #89</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/3dfd62d0-b769-4dbe-bce6-ba2e31862fed">
+<nucleotides>ctgcacgaacatatcgctaaccttgctggttctcccgccataaag</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/e4729cc6-4bbf-43a4-bf9a-efb0b236cece">
+                <bioStart>2182</bioStart>
+                <bioEnd>2230</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/fa750a3a-94e5-4168-9434-eb8464ae4dcc">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #90</displayId>
+                        <name>Oligo #90</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/9a3c71c0-6141-49eb-a02d-b0bf1cf91e0e">
+<nucleotides>ctacaaccttaactgtctgcaagatgcccttctttatggcgggagaacc</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/47580be9-3e42-43ea-8bec-66acaea2a7bf">
+                <bioStart>2208</bioStart>
+                <bioEnd>2250</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/11b97129-593f-48a9-8b28-e6168da6e776">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #91</displayId>
+                        <name>Oligo #91</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/82eaf4c6-398e-4d17-babc-042297eeba2f">
+<nucleotides>cttgcagacagttaaggttgtagatgagctggtgaaagtcatg</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/d2b2c9a5-f11a-488f-97e3-6f55b8aeb754">
+                <bioStart>2229</bioStart>
+                <bioEnd>2275</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/15cde032-6834-44c3-879b-50baad26ea8b">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #92</displayId>
+                        <name>Oligo #92</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/fd654c03-5c6e-4569-9bd2-c2b163ac9557">
+<nucleotides>caatattctcgggtttgtgccttcccatgactttcaccagctcatct</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/053f9f10-fa91-4436-ac5c-0d6615937741">
+                <bioStart>2256</bioStart>
+                <bioEnd>2302</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/7e22bdae-ea7d-49a2-9576-6ac5a2b1e487">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #93</displayId>
+                        <name>Oligo #93</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/fd86f20d-4184-4b9c-8a36-79c269e11d38">
+<nucleotides>gcacaaacccgagaatattgtgatagagatggctcgtgaaaaccaga</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/4086be07-6227-411c-a357-b55bd1687cde">
+                <bioStart>2284</bioStart>
+                <bioEnd>2317</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/559d8638-6aba-4406-96cf-cfcd1fb2216d">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #94</displayId>
+                        <name>Oligo #94</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/169b1ac8-fa55-443c-8cc5-c9373d682c1e">
+<nucleotides>gccccttctgggttgtctggttttcacgagccat</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/512a02f2-a9ed-4594-a6ba-7a13b8f55c62">
+                <bioStart>2302</bioStart>
+                <bioEnd>2351</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/6d27413f-ee68-430a-aa4a-a0cc1368ebf9">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #95</displayId>
+                        <name>Oligo #95</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/c4f80a05-c450-4542-8e58-ab43653badf3">
+<nucleotides>acaacccagaaggggcagaagaactccagagaaaggatgaagagaatcga</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/be062459-f9d7-4bd6-b1ac-1291f4c7b1d6">
+                <bioStart>2329</bioStart>
+                <bioEnd>2376</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/ab19845f-e237-40bc-b9e1-b22c50cec627">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #96</displayId>
+                        <name>Oligo #96</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/f5952301-4d7d-4cc2-a0be-783255203762">
+<nucleotides>ggagcccagttccttgatcccctcctcgattctcttcatcctttctct</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/b9905591-c7f6-4350-95c7-6180d840af78">
+                <bioStart>2359</bioStart>
+                <bioEnd>2400</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/1b17609d-d51f-4b85-a750-391bb9cf1510">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #97</displayId>
+                        <name>Oligo #97</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/b8db8586-62e1-4bc1-95d1-3d6d7f0f339f">
+<nucleotides>atcaaggaactgggctcccaaattctgaaagaacatcctgtg</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/a5e537d4-14a6-44c5-acab-3f3e328b1da9">
+                <bioStart>2377</bioStart>
+                <bioEnd>2426</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/507903bb-e369-4f64-ae52-f9e0dcb1517d">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #98</displayId>
+                        <name>Oligo #98</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/9c482c91-d32b-4f27-8915-6563caf05b56">
+<nucleotides>ttttcattctggagctgtgtgttctccacaggatgttctttcagaatttg</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/e38bb1bd-6bf6-42fd-87de-3994a53063b4">
+                <bioStart>2407</bioStart>
+                <bioEnd>2450</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/bbe88578-a9d1-4537-af72-d22000f08827">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #99</displayId>
+                        <name>Oligo #99</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/2953a5ea-7867-483a-a449-ed00ccc37c3c">
+<nucleotides>acacagctccagaatgaaaagctgtacttatactacctgcagaa</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/7e8b032b-d43a-425c-aa1f-ac28b6c6fd05">
+                <bioStart>2428</bioStart>
+                <bioEnd>2471</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/f467f90e-9c3f-4aca-be9d-1f1b312bcaf7">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #100</displayId>
+                        <name>Oligo #100</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/ed9a4b70-2f9b-45ee-a5d8-12922c62a517">
+<nucleotides>tcgacgtacatatccctgccgttctgcaggtagtataagtacag</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/05a15ea1-67b0-4b18-8cbc-4d9670fa4482">
+                <bioStart>2454</bioStart>
+                <bioEnd>2498</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/11657078-9365-41a2-8db9-afbd525f9f8d">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #101</displayId>
+                        <name>Oligo #101</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/b926aa28-a001-4d39-a515-f1a82d5b4023">
+<nucleotides>cagggatatgtacgtcgatcaggaacttgatatcaaccggctctc</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/e91314c9-fe40-4a2e-aaf7-32a5bf3430dd">
+                <bioStart>2479</bioStart>
+                <bioEnd>2522</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/a3a0f298-e5a4-4cac-bd1a-ece5fb382d7b">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #102</displayId>
+                        <name>Oligo #102</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/fec1cc4d-7560-4b00-b63f-6eabf75673fe">
+<nucleotides>acaatggcgtcaacatcgtaatcagagagccggttgatatcaag</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/40a0b127-5494-400a-8050-6701a0d240bf">
+                <bioStart>2504</bioStart>
+                <bioEnd>2546</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/607026f7-1012-41ad-a61c-ddd17e4d7e24">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #103</displayId>
+                        <name>Oligo #103</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/b9f3a744-7751-40e1-9723-8c77eb6f7c80">
+<nucleotides>acgatgttgacgccattgtcccccagagttttttaaaggatga</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/7c3c351f-69fd-489e-960a-b3bf4c7a0207">
+                <bioStart>2525</bioStart>
+                <bioEnd>2570</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/5a05dabe-8dc2-41f4-b420-26992be4c703">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #104</displayId>
+                        <name>Oligo #104</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/84dc042f-7412-4a72-82e9-78a82fd03ec2">
+<nucleotides>gtcagcactttgttgtcgatgctatcatcctttaaaaaactctggg</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/97339935-5c17-40e3-8387-3d7bf0d98eb9">
+                <bioStart>2551</bioStart>
+                <bioEnd>2593</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/31ce4a3f-d4c8-43a5-8ca1-9fb92ea6c1b4">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #105</displayId>
+                        <name>Oligo #105</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/4ae05747-3888-42ef-8119-6e9fd1351510">
+<nucleotides>atcgacaacaaagtgctgactcggtccgataagaatcgtggca</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/9e4bd253-c596-4bcb-8bdb-9c4162109ddd">
+                <bioStart>2576</bioStart>
+                <bioEnd>2618</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/99664b9a-1f9b-4a3c-8f9e-faecbbfa775b">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #106</displayId>
+                        <name>Oligo #106</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/b04a2ce7-4d84-4e14-a1c9-cfb3a9d7ff4b">
+<nucleotides>tcttcggacggtacgttgtcactcttgccacgattcttatcgg</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/c685832f-66e6-4408-a858-5859fc3d83aa">
+                <bioStart>2602</bioStart>
+                <bioEnd>2647</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/17afccd7-1b1d-47ad-89e2-37b6dcc6a487">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #107</displayId>
+                        <name>Oligo #107</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/cef879d0-0456-494c-9ef2-ee5714d27225">
+<nucleotides>aacgtaccgtccgaagaggtggtgaaaaaaatgaagaattattgga</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/f1e2f5a0-7477-4a1e-b750-5822f61d267c">
+                <bioStart>2622</bioStart>
+                <bioEnd>2670</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/4cc49600-5e63-47e8-9d2e-fd01c9b9d64a">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #108</displayId>
+                        <name>Oligo #108</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/7dfcef2f-1040-4c27-b79f-29e1bfa19d06">
+<nucleotides>cagtttggcattcagcagctgtctccaataattcttcatttttttcacc</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/81ee7156-066f-40da-8db5-821857199404">
+                <bioStart>2651</bioStart>
+                <bioEnd>2696</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/468ec477-4a3e-4439-9087-81ac5b1eb300">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #109</displayId>
+                        <name>Oligo #109</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/1a19c2b3-8204-4a97-89f8-d60a6e50c93f">
+<nucleotides>agctgctgaatgccaaactgattacacagaggaagtttgataatct</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/a404db02-1793-4a6a-a28d-3d58c0491c9b">
+                <bioStart>2675</bioStart>
+                <bioEnd>2721</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/412d9242-58a7-465d-92d7-da441994fd8f">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #110</displayId>
+                        <name>Oligo #110</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/67d34967-0869-4c67-8b56-469980bea649">
+<nucleotides>caggccgccacgttcggctttagtgagattatcaaacttcctctgtg</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/3425328f-85a3-4cb2-b300-dda8773ae6b5">
+                <bioStart>2707</bioStart>
+                <bioEnd>2744</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/b7163939-d5bc-4355-8b53-c68d9bd2dfd9">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #111</displayId>
+                        <name>Oligo #111</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/df0fdeb6-411a-4511-8c41-41277c1ee669">
+<nucleotides>gaacgtggcggcctgtccgaactggacaaagccgggtt</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/8d530fc4-cf96-4153-a7ac-113916511d28">
+                <bioStart>2729</bioStart>
+                <bioEnd>2773</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/9846db18-848d-4540-9951-83600b71d9dd">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #112</displayId>
+                        <name>Oligo #112</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/1c7a0db5-6407-490e-8687-ddd3f8c14e4a">
+<nucleotides>gacgggtctccactaactgtcttttgataaacccggctttgtcca</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/2fd5ba5d-64f7-4463-9130-9f60fe42060b">
+                <bioStart>2756</bioStart>
+                <bioEnd>2805</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/7de6465c-13ab-4866-8c80-b90cb5d17c97">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #113</displayId>
+                        <name>Oligo #113</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/7e980239-c012-41e1-a9b8-82c9d4c98124">
+<nucleotides>agttagtggagacccgtcagattaccaaacatgttgcccaaatcctggat</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/a28029b4-4b39-4470-bda8-4909fe29d66f">
+                <bioStart>2786</bioStart>
+                <bioEnd>2829</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/c40bc870-78a0-455b-85ed-f31b613e6b29">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #114</displayId>
+                        <name>Oligo #114</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/d8155447-493c-4dce-8fac-20c2110d4c51">
+<nucleotides>gtcatatttagtattcattcggctatccaggatttgggcaacat</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/6f5ce6ae-a3f2-4cba-9695-e4021014f095">
+                <bioStart>2804</bioStart>
+                <bioEnd>2852</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/985fb607-ce83-4487-8436-b6a29dabd7b9">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #115</displayId>
+                        <name>Oligo #115</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/cec65dba-35c9-40f7-8592-c210a606e5fd">
+<nucleotides>atagccgaatgaatactaaatatgacgaaaatgacaaacttatccgaga</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/2981967c-42d2-46b4-9b36-5bd9075d1599">
+                <bioStart>2830</bioStart>
+                <bioEnd>2875</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/5864ac7c-4dff-4422-8761-42985635ec18">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #116</displayId>
+                        <name>Oligo #116</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/3f164863-af63-4d3f-8eb3-e84d13986307">
+<nucleotides>tcttcagggtgatcaccttaacttctcggataagtttgtcattttc</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/5772d062-1c05-4673-b02e-38769b929e61">
+                <bioStart>2857</bioStart>
+                <bioEnd>2902</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/e1adf171-409c-4cba-ac78-29019aa43b7a">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #117</displayId>
+                        <name>Oligo #117</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/21782c26-a134-4f5b-b8a1-1598cab5d0a7">
+<nucleotides>aaggtgatcaccctgaagagtaaattagtgtctgacttcaggaagg</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/0d10e018-ecbd-4246-93ce-27d80c2c4159">
+                <bioStart>2883</bioStart>
+                <bioEnd>2931</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/b63e14b4-2674-4c94-aad1-fcbff1ee3279">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #118</displayId>
+                        <name>Oligo #118</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/2d550b92-3ec1-452c-b93f-49fff8f56cc4">
+<nucleotides>aatttcccgaaccttgtaaaattgaaaatccttcctgaagtcagacact</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/ec35533a-3957-4956-aaaf-7dbc906efd50">
+                <bioStart>2906</bioStart>
+                <bioEnd>2952</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/3f25a3e6-a0d5-44c3-a5fd-0e14bf888d4f">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #119</displayId>
+                        <name>Oligo #119</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/250d3573-8d4d-4172-9a70-d886fc84d828">
+<nucleotides>ttcaattttacaaggttcgggaaattaacaactatcaccatgctcat</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/6e4c544e-7c0a-4259-b128-52140d99bee8">
+                <bioStart>2932</bioStart>
+                <bioEnd>2975</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/9f3402f4-4ebd-4a88-8933-e546686b7731">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #120</displayId>
+                        <name>Oligo #120</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/e895b125-d3a5-4065-9385-02b17c7b26c7">
+<nucleotides>accacggcattcaggtatgcgtcatgagcatggtgatagttgtt</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/c45868dc-dd91-4455-abaa-dd532aeac691">
+                <bioStart>2960</bioStart>
+                <bioEnd>3007</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/fe6b1771-5f01-46ed-bc5e-871c4cbea6e9">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #121</displayId>
+                        <name>Oligo #121</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/7a145743-1146-4b06-848e-bdea95f4ed49">
+<nucleotides>acctgaatgccgtggtagggaccgcgttaatcaagaagtaccccaagt</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/69eac30d-621a-410c-914a-b25a302acbf5">
+                <bioStart>2987</bioStart>
+                <bioEnd>3029</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/23dd9d68-1c97-4b4d-be2b-80059f822660">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #122</displayId>
+                        <name>Oligo #122</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/235c0737-e38b-453c-b76d-d1697b03a2df">
+<nucleotides>ccgtagacaaactcggactccaacttggggtacttcttgatta</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/3e74790d-d782-4ad2-850a-d850b0cc7f8e">
+                <bioStart>3011</bioStart>
+                <bioEnd>3052</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/ab66ab29-d2ca-468f-96c6-fbb40c4cb409">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #123</displayId>
+                        <name>Oligo #123</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/d67b3479-0cc8-4433-9a32-fbab714a1653">
+<nucleotides>agtccgagtttgtctacggggactacaaggtctacgacgtga</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/f2ed4606-ff6e-4c3c-95c7-8408e70b9cb1">
+                <bioStart>3035</bioStart>
+                <bioEnd>3080</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/6d96ffd2-ab88-4fbb-832a-f080974d417b">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #124</displayId>
+                        <name>Oligo #124</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/17e4d413-3e39-455a-a634-927b60b3444f">
+<nucleotides>tcttgttctgacttagcaatcatcttcctcacgtcgtagaccttgt</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/69b00e87-4cbb-412e-b41d-c0ea917105e7">
+                <bioStart>3060</bioStart>
+                <bioEnd>3103</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/2fa4e100-888d-4918-ab9a-9d2ae81e7c7a">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #125</displayId>
+                        <name>Oligo #125</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/132156d8-e41c-4d71-9a45-afd8f1b6532a">
+<nucleotides>gattgctaagtcagaacaagagattggtaaagccaccgcaaaat</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/24db1413-9dc7-46fa-90cc-8f9304461717">
+                <bioStart>3085</bioStart>
+                <bioEnd>3131</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/2283f46d-0db9-40b9-bd9c-d5e585b9f28d">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #126</displayId>
+                        <name>Oligo #126</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/931be403-b35c-4713-abfe-45d3d5056138">
+<nucleotides>aagttcatgatgtttgagtaaaaaaagtattttgcggtggctttacc</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/c50645ec-3013-49f1-bea1-1078eef9f609">
+                <bioStart>3100</bioStart>
+                <bioEnd>3148</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/97190f84-68f2-4747-bd84-930b0ce08748">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #127</displayId>
+                        <name>Oligo #127</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/36a7d28d-3ad4-40ee-b2d7-c2bcf7827027">
+<nucleotides>aaatactttttttactcaaacatcatgaacttctttaaaaccgagataa</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/97fe9561-c56d-4779-8f6d-09ea39ac21db">
+                <bioStart>3124</bioStart>
+                <bioEnd>3167</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/2ae0f60a-dfb9-4162-98d7-6aa0e92d7822">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #128</displayId>
+                        <name>Oligo #128</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/ef2ce448-8af8-49c1-934f-ef64ea76061f">
+<nucleotides>atttccccattggccagcgttatctcggttttaaagaagttcat</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/19cd3d4c-042a-4e28-b172-e23a72611146">
+                <bioStart>3151</bioStart>
+                <bioEnd>3186</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/c52bc6dd-8fe7-47eb-a1db-47246fb03db9">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #129</displayId>
+                        <name>Oligo #129</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/47c5c1ef-5057-431e-a477-7e9600cc934d">
+<nucleotides>ctggccaatggggaaatccgcaaacgaccattaatc</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/263cb305-7c65-45ea-9032-6d69f2f89f97">
+                <bioStart>3165</bioStart>
+                <bioEnd>3211</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/66e7763d-4011-4e22-921b-2cf40145ee7a">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #130</displayId>
+                        <name>Oligo #130</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/49988a29-275f-4743-9aa2-7f5be301ca67">
+<nucleotides>tttctcctgtctcaccatttgtctcgattaatggtcgtttgcggatt</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/bd9e93ef-45f6-443e-9202-32791f63695e">
+                <bioStart>3191</bioStart>
+                <bioEnd>3240</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/028ae465-21c8-4f14-a381-2a8ba50a69c9">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #131</displayId>
+                        <name>Oligo #131</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/0d71fb3b-11dc-4a87-929d-d63e30710eb4">
+<nucleotides>caaatggtgagacaggagaaatagtttgggacaaaggccgcgatttcgca</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/d65ae3f1-2a37-4958-ad77-2f8faf3eb9e1">
+                <bioStart>3225</bioStart>
+                <bioEnd>3267</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/c68385ac-b391-4279-9b16-19b517873f0a">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #132</displayId>
+                        <name>Oligo #132</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/0920d875-7f63-474b-b6c0-92acd521b56a">
+<nucleotides>tggcatgcttaaaacttttcgcacagttgcgaaatcgcggcct</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/fa1bb412-59b0-4959-a1bb-5a51da7f0593">
+                <bioStart>3246</bioStart>
+                <bioEnd>3294</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/4d572228-6cce-4977-be5f-b80ef30a0e86">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #133</displayId>
+                        <name>Oligo #133</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/a6217774-43d2-44a7-99cb-20bd3cd22ef3">
+<nucleotides>gcgaaaagttttaagcatgccacaagttaacatcgtcaagaaaaccgaa</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/93ee9a97-b980-457c-ba9f-bfe2daa50400">
+                <bioStart>3272</bioStart>
+                <bioEnd>3317</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/2ca189f6-24cb-4ed7-8447-5cd28502506a">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #134</displayId>
+                        <name>Oligo #134</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/d2eb7353-1858-4418-b2f4-95d99333c15b">
+<nucleotides>ttggaaaaccccccggtctgcacttcggttttcttgacgatgttaa</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/94442bd5-85d0-4f02-9eac-78ab0a5310c6">
+                <bioStart>3302</bioStart>
+                <bioEnd>3343</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/64e2ce48-7c42-4681-8be0-244d334a7813">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #135</displayId>
+                        <name>Oligo #135</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/00e763cf-0a58-4432-b079-1368e2054797">
+<nucleotides>ccggggggttttccaaggagtcaatcctgcctaagagaaatt</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/6a2666ef-d6b7-42e4-8dc8-68353a94a45e">
+                <bioStart>3322</bioStart>
+                <bioEnd>3371</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/18f770a3-6145-4e84-919e-ad1cac9ab363">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #136</displayId>
+                        <name>Oligo #136</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/89782ab4-1631-4736-aaac-f968dc005724">
+<nucleotides>tccttttttctggctatcagtttgtcagaatttctcttaggcaggattga</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/45b49966-7787-4a20-8f08-e9c9cf0afabc">
+                <bioStart>3348</bioStart>
+                <bioEnd>3388</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/699483f3-d8c2-463d-98cf-1bcb230b3d53">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #137</displayId>
+                        <name>Oligo #137</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/c9fbe13c-b44c-42cf-a421-a81e416e771c">
+<nucleotides>caaactgatagccagaaaaaaggattgggatccaaagaaat</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/f436b3e1-002a-4f30-b2ca-324c0ab9dd0e">
+                <bioStart>3367</bioStart>
+                <bioEnd>3414</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/ebc79a3f-95fd-46bf-8867-0e68c40345b4">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #138</displayId>
+                        <name>Oligo #138</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/2f110b56-4ee0-47d5-885a-0cc92f1026da">
+<nucleotides>cacggttgggctatcgaacccaccgtatttctttggatcccaatcctt</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/9987d0c6-6623-4b9a-8964-2871adfeaf02">
+                <bioStart>3397</bioStart>
+                <bioEnd>3441</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/9ae90fd7-8760-421c-9ec5-b4a05382d920">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #139</displayId>
+                        <name>Oligo #139</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/38a0d0c2-6f9d-44c9-a27f-df397e5d5db8">
+<nucleotides>ttcgatagcccaaccgtggcctacagcgtcctggtggtggcaaag</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/310277d9-b063-4eec-bc98-77aa2e8f4359">
+                <bioStart>3426</bioStart>
+                <bioEnd>3473</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/0975026c-f04e-44dd-aeee-57d5e04c5ce1">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #140</displayId>
+                        <name>Oligo #140</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/9d857720-9b77-4a8c-8887-ffebe64e9006">
+<nucleotides>gacttcagtttcttactcttacccttctccacctttgccaccaccagg</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/1be150e4-0cfd-4d78-907d-7a06cab7190f">
+                <bioStart>3451</bioStart>
+                <bioEnd>3491</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/7060f83a-6108-46a1-aaa0-1dcb090d3085">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #141</displayId>
+                        <name>Oligo #141</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/662993ba-47d4-472c-a496-387c9724fbe2">
+<nucleotides>ggtaagagtaagaaactgaagtcggtgaaggagctcctcgg</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/a8a54700-d8b4-4190-adce-e3e663f3a2f8">
+                <bioStart>3476</bioStart>
+                <bioEnd>3515</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/8d4ffffb-4c99-4be0-8f5f-6e8f21fb9425">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #142</displayId>
+                        <name>Oligo #142</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/6d657302-0d12-4908-b485-dc8eed8b0847">
+<nucleotides>gaggagcgctccataatggtgattccgaggagctccttca</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/3855c1f0-563c-49b5-8d0c-7a5502f010fa">
+                <bioStart>3498</bioStart>
+                <bioEnd>3543</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/2d0bf15b-b49f-4967-bbb3-281a6ffb6555">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #143</displayId>
+                        <name>Oligo #143</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/edb66182-0542-4128-8277-545fd1154b2b">
+<nucleotides>cattatggagcgctcctcttttgagaagaaccctatagactttcta</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/eef51554-d6e3-4903-8f81-fa3bb6c1dc20">
+                <bioStart>3522</bioStart>
+                <bioEnd>3571</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/46d5b35e-f328-4981-b6e3-670da5d4a65a">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #144</displayId>
+                        <name>Oligo #144</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/04896365-c404-4b20-a4ad-347c443811a3">
+<nucleotides>ttttaacctctttatacccctttgcttctagaaagtctatagggttcttc</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/032ac7d3-b913-4eab-bab0-4863a439ba10">
+                <bioStart>3549</bioStart>
+                <bioEnd>3590</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/35e468b1-ff94-45c5-9678-d402996f1824">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #145</displayId>
+                        <name>Oligo #145</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/0ac6d610-4605-423c-abed-2cbf2f6bf749">
+<nucleotides>aaaggggtataaagaggttaaaaaagacctcatcataaagtt</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/f6115eb1-072a-4259-9ee7-0a73701b0d58">
+                <bioStart>3565</bioStart>
+                <bioEnd>3613</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/495df392-c767-4129-a4a3-26b8f2bbec42">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #146</displayId>
+                        <name>Oligo #146</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/5ce58a0e-84ee-4734-80af-b321adcc95a0">
+<nucleotides>gctcgaacaggctatacttaggcaactttatgatgaggtcttttttaac</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/a694ba95-4fa4-4f85-9ad2-b3ad2bcf7e6d">
+                <bioStart>3594</bioStart>
+                <bioEnd>3637</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/aae62d41-3cca-4d0e-8a22-ace839da1be4">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #147</displayId>
+                        <name>Oligo #147</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/6bff0c70-abce-4951-b3db-d5f5a31d71ff">
+<nucleotides>taagtatagcctgttcgagctcgagaatggccgtaaacgcatgc</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/c0fab6c8-474c-47e7-b4f3-b401ef01da0e">
+                <bioStart>3619</bioStart>
+                <bioEnd>3668</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/52fbc4ac-2934-470f-9f7d-f42849b29519">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #148</displayId>
+                        <name>Oligo #148</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/1db41f46-3c1f-4218-a106-2157f9a39eb0">
+<nucleotides>tttcctttctgcagttctccggctgaggccagcatgcgtttacggccatt</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/6d0fa102-ee2c-475b-8f97-ae9ce8a15bbb">
+                <bioStart>3650</bioStart>
+                <bioEnd>3698</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/704c6e92-5924-4fb3-823c-6285f2a35e0a">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #149</displayId>
+                        <name>Oligo #149</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/406a51ee-3855-490c-a409-3928dfd112c3">
+<nucleotides>gagaactgcagaaaggaaatgaacttgctctgcccagtaaatacgttaa</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/182ed843-7dfd-470f-9ea7-4c5fb099b648">
+                <bioStart>3678</bioStart>
+                <bioEnd>3722</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/ebc2cf72-9ec6-4570-ac73-8bb81170166a">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #150</displayId>
+                        <name>Oligo #150</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/20a8a620-62e1-42e4-af42-f6a240357830">
+<nucleotides>tagtgtgatgccaggtacaaaaagttaacgtatttactgggcaga</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/06746f70-11a7-40ea-a538-96ac35cff43e">
+                <bioStart>3705</bioStart>
+                <bioEnd>3741</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/430b3d50-d7db-44ee-ab7c-36a950554970">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #151</displayId>
+                        <name>Oligo #151</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/50449e63-cfc8-48a3-be2c-babc1593f738">
+<nucleotides>gtacctggcatcacactatgaaaagttaaaggggtca</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/00b8cc0a-9909-406e-be0e-61c76702e179">
+                <bioStart>3720</bioStart>
+                <bioEnd>3767</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/246d1c07-7f83-470e-b50d-4ec92766ad6e">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #152</displayId>
+                        <name>Oligo #152</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/07776768-7632-4e31-9573-84a768ef2101">
+<nucleotides>aactgtttctgctcgttatcttcaggtgacccctttaacttttcatag</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/5a0ebfd9-dfed-4de1-935d-d915b22e2dc4">
+                <bioStart>3746</bioStart>
+                <bioEnd>3789</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/112ab71c-0b32-41df-b318-29e679617d2f">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #153</displayId>
+                        <name>Oligo #153</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/efbf52ac-9692-4da9-b96f-2c14a31dd9a1">
+<nucleotides>aagataacgagcagaaacagttgttcgttgaacagcataagcat</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/81bdea21-f2a5-4b38-abab-c4b23b61d68b">
+                <bioStart>3769</bioStart>
+                <bioEnd>3813</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/cd4918c9-c2f0-4ec6-ac17-dcfc14e73946">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #154</displayId>
+                        <name>Oligo #154</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/9fd66016-e378-4bcd-9bd5-ba177df67b9b">
+<nucleotides>ctgctcgataatttcgtccaaataatgcttatgctgttcaacgaa</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/a8c4a9a3-8f39-46dd-adb2-c229a2a76b37">
+                <bioStart>3792</bioStart>
+                <bioEnd>3835</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/c74cfb5a-7c74-4657-8700-2de236569ff1">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #155</displayId>
+                        <name>Oligo #155</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/4f9e65c5-c5c4-4e84-8deb-f3908817fa66">
+<nucleotides>tttggacgaaattatcgagcagatctccgagtttagtaagaggg</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/e3a7c60d-0239-45dc-97cf-790722e3f401">
+                <bioStart>3816</bioStart>
+                <bioEnd>3855</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/e9a3fe38-04e6-4bb2-8da5-f71b2aa73522">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #156</displayId>
+                        <name>Oligo #156</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/c3f080d4-d5dd-4e28-ab45-055dc4232ac6">
+<nucleotides>atttgcgtcagccagaatcaccctcttactaaactcggag</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/a182edda-1582-4c05-8152-7bfc6707beab">
+                <bioStart>3836</bioStart>
+                <bioEnd>3877</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/952cdf32-3bd5-4929-b251-106d74208543">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #157</displayId>
+                        <name>Oligo #157</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/65b1ed77-09e4-49e5-a142-61d3fab4605a">
+<nucleotides>tgattctggctgacgcaaatcttgataaggtgctcagcgctt</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/ffce2efd-11bc-4b80-9cb2-c81a1f0e1791">
+                <bioStart>3860</bioStart>
+                <bioEnd>3900</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/833f35e5-8735-4bc8-a667-6e314eb0db30">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #158</displayId>
+                        <name>Oligo #158</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/5d058227-4169-4129-ac4d-98d93099562b">
+<nucleotides>tggcttgtctctatgtttattgtaagcgctgagcaccttat</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/7696910e-934c-4b01-9fca-7b0b2f7c4963">
+                <bioStart>3878</bioStart>
+                <bioEnd>3920</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/51d87278-05ca-4682-84c5-58d9c0e98036">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #159</displayId>
+                        <name>Oligo #159</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/2877328b-ca60-4bfd-b887-ccf9d75ef908">
+<nucleotides>acaataaacatagagacaagccaatcagggagcaagctgaaaa</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/4adc2b62-926d-4936-b7ee-a81408b14d6c">
+                <bioStart>3901</bioStart>
+                <bioEnd>3942</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/c457360a-0036-4fc5-99bc-707623655478">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #160</displayId>
+                        <name>Oligo #160</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/52ff2da1-1b3b-44ff-8544-59425c812672">
+<nucleotides>gagcgtgaacaggtggatgatgttttcagcttgctccctgat</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/31d02464-4b70-45f9-968e-25e6abadafc6">
+                <bioStart>3927</bioStart>
+                <bioEnd>3972</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/4f72fe99-10e6-4003-8a95-73bb94f61c61">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #161</displayId>
+                        <name>Oligo #161</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/7e231be6-f835-4c5f-80d9-b95aae54b5cc">
+<nucleotides>ccacctgttcacgctcaccaacttgggtgctcctgccgctttcaaa</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/57291ccc-b689-4d83-8781-935f1d3299c5">
+                <bioStart>3956</bioStart>
+                <bioEnd>3999</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/2708087c-ea92-4dd4-8c66-523dfb83a6bf">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #162</displayId>
+                        <name>Oligo #162</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/81a6a8f2-8640-4ee9-9e43-2b9624eff1d7">
+<nucleotides>tttcctgtcgatggtggtatcaaagtatttgaaagcggcaggag</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/61a02977-cca7-4b89-afda-6d6fb7e3bed5">
+                <bioStart>3980</bioStart>
+                <bioEnd>4026</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/566db3ee-b559-4678-a4d2-0105e74eee21">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #163</displayId>
+                        <name>Oligo #163</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/a284f6e8-b9a5-477e-9c5d-abbbc1bb8728">
+<nucleotides>ataccaccatcgacaggaaacgctatacgtctaccaaggaggtccta</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/7f659c4b-3ed1-4c7e-ab5e-95945a1e633f">
+                <bioStart>4010</bioStart>
+                <bioEnd>4052</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/4ca50eaa-1c78-4d07-83d1-87dff0b75909">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #164</displayId>
+                        <name>Oligo #164</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/ba0021e2-7f4d-429b-9b58-c94b269ff1c4">
+<nucleotides>atcgattggtgaattaaggtagcgtctaggacctccttggtag</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/2b37182b-d9a8-43a0-86ff-8a912dbb06d1">
+                <bioStart>4031</bioStart>
+                <bioEnd>4075</bioEnd>
+                <strand>+</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/e1dfdb2c-ff35-4a2c-8ab1-5de145d64576">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #165</displayId>
+                        <name>Oligo #165</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/2421c872-04c4-4311-a51d-0ef136b0d26a">
+<nucleotides>ctaccttaattcaccaatcgattacaggcttatatgagactcgta</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+        <annotation>
+            <SequenceAnnotation ns2:about="http://gene-genie.org/b6afa0b1-3102-475f-ae33-6617b4700105">
+                <bioStart>4055</bioStart>
+                <bioEnd>4101</bioEnd>
+                <strand>-</strand>
+                <subComponent>
+                    <DnaComponent ns2:about="http://gene-genie.org/4152f654-38b7-4a97-b9da-0fcff3d5dd95">
+                        <ns2:type ns2:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+                        <displayId>Oligo #166</displayId>
+                        <name>Oligo #166</name>
+                        <dnaSequence>
+                            <DnaSequence ns2:about="http://gene-genie.org/4228fb63-f8be-428d-b551-69e6482d06b9">
+<nucleotides>gtcccctccgagctggctcaaatcgatacgagtctcatataagcctg</nucleotides>
+                            </DnaSequence>
+                        </dnaSequence>
+                    </DnaComponent>
+                </subComponent>
+            </SequenceAnnotation>
+        </annotation>
+    </DnaComponent>
+</ns2:RDF>
